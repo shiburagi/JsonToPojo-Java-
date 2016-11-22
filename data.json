@@ -1,0 +1,8461 @@
+{
+  "projecttbl": [
+    {
+      "ProjectId": 2,
+      "UserId": 1,
+      "Name": "Broadsword",
+      "Code": "P000002",
+      "ShowAreaFlag": 0,
+      "StartDate": "2016-04-06 00:00:00",
+      "EndDate": "2016-06-28 00:00:00",
+      "ProjectStatus": "Draft"
+    },
+    {
+      "ProjectId": 3,
+      "UserId": 400,
+      "Name": "RAPIER - BARAT 2 2016",
+      "Code": "P000004",
+      "ShowAreaFlag": 0,
+      "StartDate": "2016-03-22 00:00:00",
+      "EndDate": "2017-02-10 00:00:00",
+      "ProjectStatus": "Launched"
+    },
+    {
+      "ProjectId": 32,
+      "UserId": 92,
+      "Name": "RAPIER - DURI 2.0 2016",
+      "Code": "P000033",
+      "ShowAreaFlag": 1,
+      "StartDate": "2016-05-12 00:00:00",
+      "EndDate": "2018-05-05 00:00:00",
+      "ProjectStatus": "Launched"
+    },
+    {
+      "ProjectId": 125,
+      "UserId": 400,
+      "Name": "Jumbo Mambo",
+      "Code": "P000039",
+      "ShowAreaFlag": 1,
+      "StartDate": "2016-08-15 00:00:00",
+      "EndDate": "2017-02-23 00:00:00",
+      "ProjectStatus": "Launched"
+    },
+    {
+      "ProjectId": 16,
+      "UserId": 400,
+      "Name": "BIG DATA",
+      "Code": "P000017",
+      "ShowAreaFlag": 0,
+      "StartDate": "2015-11-13 00:00:00",
+      "EndDate": "2017-01-31 00:00:00",
+      "ProjectStatus": "Launched"
+    }
+  ],
+  "countrytbl": [
+    {
+      "ParameterId": 93,
+      "CategoryId": 17,
+      "ParentId": 0,
+      "Name": "Indonesia",
+      "Code": "Indonesia",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 121,
+      "CategoryId": 17,
+      "ParentId": 0,
+      "Name": "Malaysia",
+      "Code": "Malaysia",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 203,
+      "CategoryId": 17,
+      "ParentId": 0,
+      "Name": "Thailand",
+      "Code": "Thailand",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "statetbl": [
+    {
+      "ParameterId": 1018,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "JOHOR DARUL TAKZIM",
+      "Code": "1.5448725,103.6967269",
+      "Description": "12",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1019,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "KEDAH DARUL AMAN",
+      "Code": "5.81074,100.6611889",
+      "Description": "02",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1020,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "KELANTAN DARUL NAIM",
+      "Code": "5.3951083,101.9999469",
+      "Description": "03",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1021,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "MELAKA",
+      "Code": "2.2732205,102.2821323",
+      "Description": "11",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1022,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "NEGERI SEMBILAN DARUL KHUSUS",
+      "Code": "2.8398229,102.2021089",
+      "Description": "10",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1023,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "PAHANG DARUL MAKMUR",
+      "Code": "3.619337,102.7779638",
+      "Description": "07",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1024,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "PERAK DARUL RIDZUAN",
+      "Code": "4.8012041,101.0566352",
+      "Description": "06",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1025,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "PERLIS INDERA KAYANGAN",
+      "Code": "6.4899689,100.2437587",
+      "Description": "01",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1026,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "PULAU PINANG",
+      "Code": "5.354004,100.3628774",
+      "Description": "05",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1027,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "SABAH",
+      "Code": "5.5768616,117.3028865",
+      "Description": "13",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1028,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "SARAWAK",
+      "Code": "2.9228285,112.6112244",
+      "Description": "14",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1030,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "SELANGOR DARUL EHSAN",
+      "Code": "3.2312963,101.379106",
+      "Description": "08",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1029,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "TERENGGANU DARUL IMAN",
+      "Code": "4.9224545,102.935723",
+      "Description": "04",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1031,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "WILAYAH PERSEKUTUAN KUALA LUMPUR",
+      "Code": "3.139003,101.6868554",
+      "Description": "09",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1032,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "WILAYAH PERSEKUTUAN LABUAN",
+      "Code": "5.317087,115.21284",
+      "Description": "13",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1033,
+      "CategoryId": 231,
+      "ParentId": 121,
+      "Name": "WILAYAH PERSEKUTUAN PUTRAJAYA",
+      "Code": "2.9263616,101.696445",
+      "Description": "08",
+      "ActiveFlag": 1
+    }
+  ],
+  "parliamenttbl": [
+    {
+      "ParameterId": 2139,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "ALOR GAJAH",
+      "Code": "P.135",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2013,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "ALOR STAR",
+      "Code": "P.009",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2103,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "AMPANG",
+      "Code": "P.099",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2007,
+      "CategoryId": 1834,
+      "ParentId": 1025,
+      "Name": "ARAU",
+      "Code": "P.003",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2152,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "AYER HITAM",
+      "Code": "P.148",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2029,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "BACHOK",
+      "Code": "P.025",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2047,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BAGAN",
+      "Code": "P.043",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2079,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "BAGAN DATOK",
+      "Code": "P.075",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2062,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "BAGAN SERAI",
+      "Code": "P.058",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2149,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "BAKRI",
+      "Code": "P.145",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2057,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BALIK PULAU",
+      "Code": "P.053",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2020,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "BALING",
+      "Code": "P.016",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1918,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Bandar Kuching",
+      "Code": "P.195",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2128,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "BANDAR TUN RAZAK",
+      "Code": "P.124",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1943,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Baram",
+      "Code": "P.220",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1924,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Batang Lupar",
+      "Code": "P.201",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1923,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Batang Sadong",
+      "Code": "P.200",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2119,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "BATU",
+      "Code": "P.115",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2070,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "BATU GAJAH",
+      "Code": "P.066",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2050,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BATU KAWAN",
+      "Code": "P.046",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2154,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "BATU PAHAT",
+      "Code": "P.150",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2703,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "BATU SAPI",
+      "Code": "P.185",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2056,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BAYAN BARU",
+      "Code": "P.052",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2695,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "BEAUFORT",
+      "Code": "P.177",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2701,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "BELURAN",
+      "Code": "P.183",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2093,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "BENTONG",
+      "Code": "P.089",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2094,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "BERA",
+      "Code": "P.090",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2072,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "BERUAS",
+      "Code": "P.068",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2037,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "BESUT",
+      "Code": "P.033",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1927,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Betong",
+      "Code": "P.204",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1940,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Bintulu",
+      "Code": "P.217",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2052,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BUKIT BENDERA",
+      "Code": "P.048",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2124,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "BUKIT BINTANG",
+      "Code": "P.120",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2063,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "BUKIT GANTANG",
+      "Code": "P.059",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2055,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BUKIT GELUGOR",
+      "Code": "P.051",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2141,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "BUKIT KATIL",
+      "Code": "P.137",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2049,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "BUKIT MERTAJAM",
+      "Code": "P.045",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2082,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "CAMERON HIGHLANDS",
+      "Code": "P.078",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2127,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "CHERAS",
+      "Code": "P.123",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2043,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "DUNGUN",
+      "Code": "P.039",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2166,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "GELANG PATAH",
+      "Code": "P.162",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2058,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "GERIK",
+      "Code": "P.054",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2102,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "GOMBAK",
+      "Code": "P.098",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2075,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "GOPENG",
+      "Code": "P.071",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2036,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "GUA MUSANG",
+      "Code": "P.032",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2105,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "HULU LANGAT",
+      "Code": "P.101",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1939,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Hulu Rajang",
+      "Code": "P.216",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2098,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "HULU SELANGOR",
+      "Code": "P.094",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2042,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "HULU TERENGGANU",
+      "Code": "P.038",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1930,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Igan",
+      "Code": "P.207",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2086,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "INDERA MAHKOTA",
+      "Code": "P.082",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2069,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "IPOH BARAT",
+      "Code": "P.065",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2068,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "IPOH TIMOR",
+      "Code": "P.064",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2143,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "JASIN",
+      "Code": "P.139",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2130,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "JELEBU",
+      "Code": "P.126",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2034,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "JELI",
+      "Code": "P.030",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2054,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "JELUTONG",
+      "Code": "P.050",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2131,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "JEMPOL",
+      "Code": "P.127",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2016,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "JERAI",
+      "Code": "P.012",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2085,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "JERANTUT",
+      "Code": "P.081",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2009,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "JERLUN",
+      "Code": "P.005",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2164,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "JOHOR BAHRU",
+      "Code": "P.160",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1932,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Julau",
+      "Code": "P.209",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2709,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KALABAKAN",
+      "Code": "P.191",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2074,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "KAMPAR",
+      "Code": "P.070",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2006,
+      "CategoryId": 1834,
+      "ParentId": 1025,
+      "Name": "KANGAR",
+      "Code": "P.002",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1933,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Kanowit",
+      "Code": "P.210",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2113,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KAPAR",
+      "Code": "P.109",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1938,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Kapit",
+      "Code": "P.215",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2108,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KELANA JAYA",
+      "Code": "P.104",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2044,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "KEMAMAN",
+      "Code": "P.040",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2698,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KENINGAU",
+      "Code": "P.180",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2045,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "KEPALA BATAS",
+      "Code": "P.041",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2118,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "KEPONG",
+      "Code": "P.114",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2030,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "KETEREH",
+      "Code": "P.026",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2694,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KIMANIS",
+      "Code": "P.176",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2705,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KINABATANGAN",
+      "Code": "P.187",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2114,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KLANG",
+      "Code": "P.110",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2156,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "KLUANG",
+      "Code": "P.152",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2687,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KOTA BELUD",
+      "Code": "P.169",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2025,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "KOTA BHARU",
+      "Code": "P.021",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2690,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KOTA KINABALU",
+      "Code": "P.172",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2686,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KOTA MARUDU",
+      "Code": "P.168",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2142,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "KOTA MELAKA",
+      "Code": "P.138",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2115,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KOTA RAJA",
+      "Code": "P.111",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1920,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Kota Samarahan",
+      "Code": "P.197",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2160,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "KOTA TINGGI",
+      "Code": "P.156",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2071,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "KUALA KANGSAR",
+      "Code": "P.067",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2014,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "KUALA KEDAH",
+      "Code": "P.010",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2035,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "KUALA KRAI",
+      "Code": "P.031",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2091,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "KUALA KRAU",
+      "Code": "P.087",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2116,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KUALA LANGAT",
+      "Code": "P.112",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2039,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "KUALA NERUS",
+      "Code": "P.035",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2133,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "KUALA PILAH",
+      "Code": "P.129",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2100,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "KUALA SELANGOR",
+      "Code": "P.096",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2040,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "KUALA TERENGGANU",
+      "Code": "P.036",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2087,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "KUANTAN",
+      "Code": "P.083",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2028,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "KUBANG KERIAN",
+      "Code": "P.024",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2010,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "KUBANG PASU",
+      "Code": "P.006",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2685,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "KUDAT",
+      "Code": "P.167",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2167,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "KULAI",
+      "Code": "P.163",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2022,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "KULIM-BANDAR BAHARU",
+      "Code": "P.018",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2146,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "LABIS",
+      "Code": "P.142",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2684,
+      "CategoryId": 1834,
+      "ParentId": 1032,
+      "Name": "LABUAN",
+      "Code": "P.166",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1934,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Lanang",
+      "Code": "P.211",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2008,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "LANGKAWI",
+      "Code": "P.004",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2060,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "LARUT",
+      "Code": "P.056",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1945,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Lawas",
+      "Code": "P.222",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2148,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "LEDANG",
+      "Code": "P.144",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2125,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "LEMBAH PANTAI",
+      "Code": "P.121",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2059,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "LENGGONG",
+      "Code": "P.055",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2702,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "LIBARAN",
+      "Code": "P.184",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1944,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Limbang",
+      "Code": "P.221",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2083,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "LIPIS",
+      "Code": "P.079",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1926,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Lubok Antu",
+      "Code": "P.203",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2078,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "LUMUT",
+      "Code": "P.074",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2033,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "MACHANG",
+      "Code": "P.029",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2090,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "MARAN",
+      "Code": "P.086",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2041,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "MARANG",
+      "Code": "P.037",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1889,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Mas Gading",
+      "Code": "P.192",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2138,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "MASJID TANAH",
+      "Code": "P.134",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2018,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "MERBOK",
+      "Code": "P.014",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2158,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "MERSING",
+      "Code": "P.154",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1942,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Miri",
+      "Code": "P.219",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2150,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "MUAR",
+      "Code": "P.146",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1936,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Mukah",
+      "Code": "P.213",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2051,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "NIBONG TEBAL",
+      "Code": "P.047",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2005,
+      "CategoryId": 1834,
+      "ParentId": 1025,
+      "Name": "PADANG BESAR",
+      "Code": "P.001",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2065,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "PADANG RENGAS",
+      "Code": "P.061",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2021,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "PADANG SERAI",
+      "Code": "P.017",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2011,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "PADANG TERAP",
+      "Code": "P.007",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2147,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PAGOH",
+      "Code": "P.143",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2104,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "PANDAN",
+      "Code": "P.100",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2693,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "PAPAR",
+      "Code": "P.175",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2073,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "PARIT",
+      "Code": "P.069",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2061,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "PARIT BUNTAR",
+      "Code": "P.057",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2151,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PARIT SULONG",
+      "Code": "P.147",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2163,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PASIR GUDANG",
+      "Code": "P.159",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2026,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "PASIR MAS",
+      "Code": "P.022",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2032,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "PASIR PUTEH",
+      "Code": "P.028",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2077,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "PASIR SALAK",
+      "Code": "P.073",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2088,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "PAYA BESAR",
+      "Code": "P.084",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2089,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "PEKAN",
+      "Code": "P.085",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2692,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "PENAMPANG",
+      "Code": "P.174",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2015,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "PENDANG",
+      "Code": "P.011",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2161,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PENGERANG",
+      "Code": "P.157",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2024,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "PENGKALAN CHEPA",
+      "Code": "P.020",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2700,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "PENSIANGAN",
+      "Code": "P.182",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2048,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "PERMATANG PAUH",
+      "Code": "P.044",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2109,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "PETALING JAYA SELATAN",
+      "Code": "P.105",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2110,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "PETALING JAYA UTARA",
+      "Code": "P.106",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1917,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Petra Jaya",
+      "Code": "P.194",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2012,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "POKOK SENA",
+      "Code": "P.008",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2168,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PONTIAN",
+      "Code": "P.164",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2107,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "PUCHONG",
+      "Code": "P.103",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2165,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "PULAI",
+      "Code": "P.161",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1921,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Puncak Borneo",
+      "Code": "P.198",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2691,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "PUTATAN",
+      "Code": "P.173",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2683,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "PUTRAJAYA",
+      "Code": "P.125",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2129,
+      "CategoryId": 1834,
+      "ParentId": 1033,
+      "Name": "PUTRAJAYA",
+      "Code": "P.125",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2697,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "RANAU",
+      "Code": "P.179",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2027,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "RANTAU PANJANG",
+      "Code": "P.023",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2134,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "RASAH",
+      "Code": "P.130",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2084,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "RAUB",
+      "Code": "P.080",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2135,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "REMBAU",
+      "Code": "P.131",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2095,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "ROMPIN",
+      "Code": "P.091",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2096,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SABAK BERNAM",
+      "Code": "P.092",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2704,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "SANDAKAN",
+      "Code": "P.186",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1916,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Santubong",
+      "Code": "P.193",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1928,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Saratok",
+      "Code": "P.205",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1931,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Sarikei",
+      "Code": "P.208",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2144,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "SEGAMAT",
+      "Code": "P.140",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2121,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "SEGAMBUT",
+      "Code": "P.117",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2145,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "SEKIJANG",
+      "Code": "P.141",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1937,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Selangau",
+      "Code": "P.214",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2101,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SELAYANG",
+      "Code": "P.097",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2157,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "SEMBRONG",
+      "Code": "P.153",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2707,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "SEMPORNA",
+      "Code": "P.189",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2117,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SEPANG",
+      "Code": "P.113",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2689,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "SEPANGGAR",
+      "Code": "P.171",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2126,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "SEPUTEH",
+      "Code": "P.122",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2106,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SERDANG",
+      "Code": "P.102",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2132,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "SEREMBAN",
+      "Code": "P.128",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1922,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Serian",
+      "Code": "P.199",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2122,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "SETIAWANGSA",
+      "Code": "P.118",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2038,
+      "CategoryId": 1834,
+      "ParentId": 1029,
+      "Name": "SETIU",
+      "Code": "P.034",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2112,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SHAH ALAM",
+      "Code": "P.108",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1935,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Sibu",
+      "Code": "P.212",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1941,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Sibuti",
+      "Code": "P.218",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2017,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "SIK",
+      "Code": "P.013",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2706,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "SILAM",
+      "Code": "P.188",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2155,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "SIMPANG RENGGAM",
+      "Code": "P.151",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2696,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "SIPITANG",
+      "Code": "P.178",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1925,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Sri Aman",
+      "Code": "P.202",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2153,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "SRI GADING",
+      "Code": "P.149",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1919,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Stampin",
+      "Code": "P.196",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2111,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SUBANG",
+      "Code": "P.107",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2097,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "SUNGAI BESAR",
+      "Code": "P.093",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2019,
+      "CategoryId": 1834,
+      "ParentId": 1019,
+      "Name": "SUNGAI PETANI",
+      "Code": "P.015",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2066,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "SUNGAI SIPUT",
+      "Code": "P.062",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2064,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "TAIPING",
+      "Code": "P.060",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2067,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "TAMBUN",
+      "Code": "P.063",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2137,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "TAMPIN",
+      "Code": "P.133",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2031,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "TANAH MERAH",
+      "Code": "P.027",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2140,
+      "CategoryId": 1834,
+      "ParentId": 1021,
+      "Name": "TANGGA BATU",
+      "Code": "P.136",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2053,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "TANJONG",
+      "Code": "P.049",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2099,
+      "CategoryId": 1834,
+      "ParentId": 1030,
+      "Name": "TANJONG KARANG",
+      "Code": "P.095",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2081,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "TANJONG MALIM",
+      "Code": "P.077",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2169,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "TANJONG PIAI",
+      "Code": "P.165",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1929,
+      "CategoryId": 1834,
+      "ParentId": 1028,
+      "Name": "Tanjung Manis",
+      "Code": "P.206",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2076,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "TAPAH",
+      "Code": "P.072",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2046,
+      "CategoryId": 1834,
+      "ParentId": 1026,
+      "Name": "TASEK GELUGOR",
+      "Code": "P.042",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2708,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "TAWAU",
+      "Code": "P.190",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2162,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "TEBRAU",
+      "Code": "P.158",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2080,
+      "CategoryId": 1834,
+      "ParentId": 1024,
+      "Name": "TELOK INTAN",
+      "Code": "P.076",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2136,
+      "CategoryId": 1834,
+      "ParentId": 1022,
+      "Name": "TELOK KEMANG",
+      "Code": "P.132",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2092,
+      "CategoryId": 1834,
+      "ParentId": 1023,
+      "Name": "TEMERLOH",
+      "Code": "P.088",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2159,
+      "CategoryId": 1834,
+      "ParentId": 1018,
+      "Name": "TENGGARA",
+      "Code": "P.155",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2699,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "TENOM",
+      "Code": "P.181",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2123,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "TITIWANGSA",
+      "Code": "P.119",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2688,
+      "CategoryId": 1834,
+      "ParentId": 1027,
+      "Name": "TUARAN",
+      "Code": "P.170",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2023,
+      "CategoryId": 1834,
+      "ParentId": 1020,
+      "Name": "TUMPAT",
+      "Code": "P.019",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2120,
+      "CategoryId": 1834,
+      "ParentId": 1031,
+      "Name": "WANGSA MAJU",
+      "Code": "P.116",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "subdistricttbl": [
+    {
+      "ParameterId": 2330,
+      "CategoryId": 1835,
+      "ParentId": 2055,
+      "Name": "AIR ITAM",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2257,
+      "CategoryId": 1835,
+      "ParentId": 2034,
+      "Name": "AIR LANAS",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2320,
+      "CategoryId": 1835,
+      "ParentId": 2052,
+      "Name": "AIR PUTIH",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2297,
+      "CategoryId": 1835,
+      "ParentId": 2044,
+      "Name": "AIR PUTIH",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2289,
+      "CategoryId": 1835,
+      "ParentId": 2042,
+      "Name": "AJIL",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2198,
+      "CategoryId": 1835,
+      "ParentId": 2013,
+      "Name": "ALOR MENGKUDU",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2347,
+      "CategoryId": 1835,
+      "ParentId": 2062,
+      "Name": "ALOR PONGSU",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2282,
+      "CategoryId": 1835,
+      "ParentId": 2041,
+      "Name": "ALUR LIMBAT",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2508,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "AMPANGAN",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2199,
+      "CategoryId": 1835,
+      "ParentId": 2014,
+      "Name": "ANAK BUKIT",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2766,
+      "CategoryId": 1835,
+      "ParentId": 2708,
+      "Name": "APAS",
+      "Code": "N.56",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2725,
+      "CategoryId": 1835,
+      "ParentId": 2690,
+      "Name": "API-API",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2540,
+      "CategoryId": 1835,
+      "ParentId": 2139,
+      "Name": "ASAHAN",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2782,
+      "CategoryId": 1835,
+      "ParentId": 1920,
+      "Name": "ASAJAYA",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2355,
+      "CategoryId": 1835,
+      "ParentId": 2064,
+      "Name": "AULONG",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2185,
+      "CategoryId": 1835,
+      "ParentId": 2008,
+      "Name": "AYER HANGAT",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2188,
+      "CategoryId": 1835,
+      "ParentId": 2009,
+      "Name": "AYER HITAM",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2546,
+      "CategoryId": 1835,
+      "ParentId": 2141,
+      "Name": "AYER KEROH",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2384,
+      "CategoryId": 1835,
+      "ParentId": 2076,
+      "Name": "AYER KUNING",
+      "Code": "N.47",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2533,
+      "CategoryId": 1835,
+      "ParentId": 2138,
+      "Name": "AYER LIMAU",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2548,
+      "CategoryId": 1835,
+      "ParentId": 2141,
+      "Name": "AYER MOLEK",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2838,
+      "CategoryId": 1835,
+      "ParentId": 1945,
+      "Name": "BA`KELALAN",
+      "Code": "N.81",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2545,
+      "CategoryId": 1835,
+      "ParentId": 2141,
+      "Name": "BACHANG",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2306,
+      "CategoryId": 1835,
+      "ParentId": 2047,
+      "Name": "BAGAN DALAM",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2305,
+      "CategoryId": 1835,
+      "ParentId": 2047,
+      "Name": "BAGAN JERMAL",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2525,
+      "CategoryId": 1835,
+      "ParentId": 2136,
+      "Name": "BAGAN PINANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2502,
+      "CategoryId": 1835,
+      "ParentId": 2131,
+      "Name": "BAHAU",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2212,
+      "CategoryId": 1835,
+      "ParentId": 2019,
+      "Name": "BAKAR ARANG",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2196,
+      "CategoryId": 1835,
+      "ParentId": 2013,
+      "Name": "BAKAR BATA",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2793,
+      "CategoryId": 1835,
+      "ParentId": 1925,
+      "Name": "BALAI RINGIN",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2465,
+      "CategoryId": 1835,
+      "ParentId": 2106,
+      "Name": "BALAKONG",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2824,
+      "CategoryId": 1835,
+      "ParentId": 1939,
+      "Name": "BALEH",
+      "Code": "N.64",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2819,
+      "CategoryId": 1835,
+      "ParentId": 1936,
+      "Name": "BALINGIAN",
+      "Code": "N.58",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2765,
+      "CategoryId": 1835,
+      "ParentId": 2708,
+      "Name": "BALUNG",
+      "Code": "N.55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2279,
+      "CategoryId": 1835,
+      "ParentId": 2040,
+      "Name": "BANDAR",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2220,
+      "CategoryId": 1835,
+      "ParentId": 2022,
+      "Name": "BANDAR BAHARU",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2552,
+      "CategoryId": 1835,
+      "ParentId": 2142,
+      "Name": "BANDAR HILIR",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2625,
+      "CategoryId": 1835,
+      "ParentId": 2128,
+      "Name": "BANDAR TUN RAZAK",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2711,
+      "CategoryId": 1835,
+      "ParentId": 2685,
+      "Name": "BANGGI",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2464,
+      "CategoryId": 1835,
+      "ParentId": 2106,
+      "Name": "BANGI",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2797,
+      "CategoryId": 1835,
+      "ParentId": 1926,
+      "Name": "BATANG AI",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2445,
+      "CategoryId": 1835,
+      "ParentId": 2098,
+      "Name": "BATANG KALI",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2616,
+      "CategoryId": 1835,
+      "ParentId": 2119,
+      "Name": "BATU",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2281,
+      "CategoryId": 1835,
+      "ParentId": 2040,
+      "Name": "BATU BURUK",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2454,
+      "CategoryId": 1835,
+      "ParentId": 2102,
+      "Name": "BATU CAVES",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2837,
+      "CategoryId": 1835,
+      "ParentId": 1944,
+      "Name": "BATU DANAU",
+      "Code": "N.80",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2781,
+      "CategoryId": 1835,
+      "ParentId": 1919,
+      "Name": "BATU KAWAH",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3390,
+      "CategoryId": 1835,
+      "ParentId": 1919,
+      "Name": "BATU KITANG",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2344,
+      "CategoryId": 1835,
+      "ParentId": 2060,
+      "Name": "BATU KURAU",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2328,
+      "CategoryId": 1835,
+      "ParentId": 2054,
+      "Name": "BATU LANCANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2779,
+      "CategoryId": 1835,
+      "ParentId": 1919,
+      "Name": "BATU LINTANG",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2334,
+      "CategoryId": 1835,
+      "ParentId": 2056,
+      "Name": "BATU MAUNG",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2273,
+      "CategoryId": 1835,
+      "ParentId": 2038,
+      "Name": "BATU RAKIT",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2402,
+      "CategoryId": 1835,
+      "ParentId": 2084,
+      "Name": "BATU TALAM",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2479,
+      "CategoryId": 1835,
+      "ParentId": 2112,
+      "Name": "BATU TIGA",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2332,
+      "CategoryId": 1835,
+      "ParentId": 2056,
+      "Name": "BATU UBAN",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2815,
+      "CategoryId": 1835,
+      "ParentId": 1935,
+      "Name": "BAWANG ASSAN",
+      "Code": "N.53",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2335,
+      "CategoryId": 1835,
+      "ParentId": 2057,
+      "Name": "BAYAN LEPAS",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2214,
+      "CategoryId": 1835,
+      "ParentId": 2020,
+      "Name": "BAYU",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2418,
+      "CategoryId": 1835,
+      "ParentId": 2089,
+      "Name": "BEBAR",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2396,
+      "CategoryId": 1835,
+      "ParentId": 2081,
+      "Name": "BEHRANG",
+      "Code": "N.59",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2829,
+      "CategoryId": 1835,
+      "ParentId": 1941,
+      "Name": "BEKENU",
+      "Code": "N.71",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2564,
+      "CategoryId": 1835,
+      "ParentId": 2146,
+      "Name": "BEKOK",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2825,
+      "CategoryId": 1835,
+      "ParentId": 1939,
+      "Name": "BELAGA",
+      "Code": "N.65",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2375,
+      "CategoryId": 1835,
+      "ParentId": 2073,
+      "Name": "BELANJA",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2207,
+      "CategoryId": 1835,
+      "ParentId": 2017,
+      "Name": "BELANTEK",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2554,
+      "CategoryId": 1835,
+      "ParentId": 2143,
+      "Name": "BEMBAN",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2401,
+      "CategoryId": 1835,
+      "ParentId": 2083,
+      "Name": "BENTA",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2570,
+      "CategoryId": 1835,
+      "ParentId": 2149,
+      "Name": "BENTAYAN",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2611,
+      "CategoryId": 1835,
+      "ParentId": 2168,
+      "Name": "BENUT",
+      "Code": "N.53",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2310,
+      "CategoryId": 1835,
+      "ParentId": 2049,
+      "Name": "BERAPIT",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2365,
+      "CategoryId": 1835,
+      "ParentId": 2069,
+      "Name": "BERCHAM",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2299,
+      "CategoryId": 1835,
+      "ParentId": 2045,
+      "Name": "BERTAM",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2408,
+      "CategoryId": 1835,
+      "ParentId": 2086,
+      "Name": "BESERAH",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2171,
+      "CategoryId": 1835,
+      "ParentId": 2005,
+      "Name": "BESERI",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2792,
+      "CategoryId": 1835,
+      "ParentId": 1924,
+      "Name": "BETING MARO",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2429,
+      "CategoryId": 1835,
+      "ParentId": 2093,
+      "Name": "BILUT",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2743,
+      "CategoryId": 1835,
+      "ParentId": 2698,
+      "Name": "BINGKOR",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2175,
+      "CategoryId": 1835,
+      "ParentId": 2006,
+      "Name": "BINTONG",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2733,
+      "CategoryId": 1835,
+      "ParentId": 2694,
+      "Name": "BONGAWAN",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2376,
+      "CategoryId": 1835,
+      "ParentId": 2073,
+      "Name": "BOTA",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2764,
+      "CategoryId": 1835,
+      "ParentId": 2707,
+      "Name": "BUGAYA",
+      "Code": "N.54",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2457,
+      "CategoryId": 1835,
+      "ParentId": 2103,
+      "Name": "BUKIT ANTARABANGSA",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2813,
+      "CategoryId": 1835,
+      "ParentId": 1934,
+      "Name": "BUKIT ASSEK",
+      "Code": "N.51",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2547,
+      "CategoryId": 1835,
+      "ParentId": 2141,
+      "Name": "BUKIT BARU",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2609,
+      "CategoryId": 1835,
+      "ParentId": 2167,
+      "Name": "BUKIT BATU",
+      "Code": "N.51",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2794,
+      "CategoryId": 1835,
+      "ParentId": 1925,
+      "Name": "BUKIT BEGUNAN",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2290,
+      "CategoryId": 1835,
+      "ParentId": 2043,
+      "Name": "BUKIT BESI",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2621,
+      "CategoryId": 1835,
+      "ParentId": 2124,
+      "Name": "BUKIT BINTANG",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2256,
+      "CategoryId": 1835,
+      "ParentId": 2034,
+      "Name": "BUKIT BUNGA",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2371,
+      "CategoryId": 1835,
+      "ParentId": 2071,
+      "Name": "BUKIT CHANDAN",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2472,
+      "CategoryId": 1835,
+      "ParentId": 2109,
+      "Name": "BUKIT GASING",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3387,
+      "CategoryId": 1835,
+      "ParentId": 1938,
+      "Name": "BUKIT GORAM",
+      "Code": "N.63",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2436,
+      "CategoryId": 1835,
+      "ParentId": 2095,
+      "Name": "BUKIT IBAM",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2189,
+      "CategoryId": 1835,
+      "ParentId": 2010,
+      "Name": "BUKIT KAYU HITAM",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2515,
+      "CategoryId": 1835,
+      "ParentId": 2134,
+      "Name": "BUKIT KEPAYANG",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2836,
+      "CategoryId": 1835,
+      "ParentId": 1944,
+      "Name": "BUKIT KOTA",
+      "Code": "N.79",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2193,
+      "CategoryId": 1835,
+      "ParentId": 2012,
+      "Name": "BUKIT LADA",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2475,
+      "CategoryId": 1835,
+      "ParentId": 2111,
+      "Name": "BUKIT LANJAN",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2448,
+      "CategoryId": 1835,
+      "ParentId": 2100,
+      "Name": "BUKIT MELAWATI",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2572,
+      "CategoryId": 1835,
+      "ParentId": 2149,
+      "Name": "BUKIT NANING",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2246,
+      "CategoryId": 1835,
+      "ParentId": 2031,
+      "Name": "BUKIT PANAU",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2283,
+      "CategoryId": 1835,
+      "ParentId": 2041,
+      "Name": "BUKIT PAYUNG",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2608,
+      "CategoryId": 1835,
+      "ParentId": 2167,
+      "Name": "BUKIT PERMAI",
+      "Code": "N.50",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2194,
+      "CategoryId": 1835,
+      "ParentId": 2012,
+      "Name": "BUKIT PINANG",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2800,
+      "CategoryId": 1835,
+      "ParentId": 1927,
+      "Name": "BUKIT SABAN",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2839,
+      "CategoryId": 1835,
+      "ParentId": 1945,
+      "Name": "BUKIT SARI",
+      "Code": "N.82",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2209,
+      "CategoryId": 1835,
+      "ParentId": 2018,
+      "Name": "BUKIT SELAMBAU",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3383,
+      "CategoryId": 1835,
+      "ParentId": 1922,
+      "Name": "BUKIT SEMUJA",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2565,
+      "CategoryId": 1835,
+      "ParentId": 2147,
+      "Name": "BUKIT SERAMPANG",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2315,
+      "CategoryId": 1835,
+      "ParentId": 2050,
+      "Name": "BUKIT TAMBUN",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2314,
+      "CategoryId": 1835,
+      "ParentId": 2050,
+      "Name": "BUKIT TENGAH",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2236,
+      "CategoryId": 1835,
+      "ParentId": 2027,
+      "Name": "BUKIT TUKU",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2277,
+      "CategoryId": 1835,
+      "ParentId": 2039,
+      "Name": "BUKIT TUNGGAL",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2559,
+      "CategoryId": 1835,
+      "ParentId": 2144,
+      "Name": "BULOH KASAP",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2367,
+      "CategoryId": 1835,
+      "ParentId": 2069,
+      "Name": "BUNTONG",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2230,
+      "CategoryId": 1835,
+      "ParentId": 2025,
+      "Name": "BUNUT PAYONG",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2362,
+      "CategoryId": 1835,
+      "ParentId": 2068,
+      "Name": "CANNING",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2351,
+      "CategoryId": 1835,
+      "ParentId": 2063,
+      "Name": "CHANGKAT JERING",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2393,
+      "CategoryId": 1835,
+      "ParentId": 2080,
+      "Name": "CHANGKAT JONG",
+      "Code": "N.56",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2400,
+      "CategoryId": 1835,
+      "ParentId": 2083,
+      "Name": "CHEKA",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2520,
+      "CategoryId": 1835,
+      "ParentId": 2135,
+      "Name": "CHEMBONG",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2226,
+      "CategoryId": 1835,
+      "ParentId": 2024,
+      "Name": "CHEMPAKA",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2459,
+      "CategoryId": 1835,
+      "ParentId": 2104,
+      "Name": "CHEMPAKA",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2383,
+      "CategoryId": 1835,
+      "ParentId": 2076,
+      "Name": "CHENDERIANG",
+      "Code": "N.46",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2356,
+      "CategoryId": 1835,
+      "ParentId": 2065,
+      "Name": "CHENDEROH",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2495,
+      "CategoryId": 1835,
+      "ParentId": 2130,
+      "Name": "CHENNAH",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2422,
+      "CategoryId": 1835,
+      "ParentId": 2090,
+      "Name": "CHENOR",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2624,
+      "CategoryId": 1835,
+      "ParentId": 2127,
+      "Name": "CHERAS",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2233,
+      "CategoryId": 1835,
+      "ParentId": 2026,
+      "Name": "CHETOK",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2419,
+      "CategoryId": 1835,
+      "ParentId": 2089,
+      "Name": "CHINI",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2523,
+      "CategoryId": 1835,
+      "ParentId": 2136,
+      "Name": "CHUAH",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2172,
+      "CategoryId": 1835,
+      "ParentId": 2005,
+      "Name": "CHUPING",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2296,
+      "CategoryId": 1835,
+      "ParentId": 2044,
+      "Name": "CUKAI",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2262,
+      "CategoryId": 1835,
+      "ParentId": 2035,
+      "Name": "DABONG",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2818,
+      "CategoryId": 1835,
+      "ParentId": 1936,
+      "Name": "DALAT",
+      "Code": "N.56",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2406,
+      "CategoryId": 1835,
+      "ParentId": 2085,
+      "Name": "DAMAK",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2474,
+      "CategoryId": 1835,
+      "ParentId": 2110,
+      "Name": "DAMANSARA UTAMA",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2805,
+      "CategoryId": 1835,
+      "ParentId": 1930,
+      "Name": "DARO",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2326,
+      "CategoryId": 1835,
+      "ParentId": 2054,
+      "Name": "DATOK KERAMAT",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2773,
+      "CategoryId": 1835,
+      "ParentId": 1916,
+      "Name": "DEMAK LAUT",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2239,
+      "CategoryId": 1835,
+      "ParentId": 2028,
+      "Name": "DEMIT",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2493,
+      "CategoryId": 1835,
+      "ParentId": 2117,
+      "Name": "DENGKIL",
+      "Code": "N.55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2195,
+      "CategoryId": 1835,
+      "ParentId": 2012,
+      "Name": "DERGA",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2404,
+      "CategoryId": 1835,
+      "ParentId": 2084,
+      "Name": "DONG",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2814,
+      "CategoryId": 1835,
+      "ParentId": 1934,
+      "Name": "DUDONG",
+      "Code": "N.52",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2539,
+      "CategoryId": 1835,
+      "ParentId": 2139,
+      "Name": "DURIAN TUNGGAL",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2461,
+      "CategoryId": 1835,
+      "ParentId": 2105,
+      "Name": "DUSUN TUA",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2551,
+      "CategoryId": 1835,
+      "ParentId": 2142,
+      "Name": "DUYONG",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2755,
+      "CategoryId": 1835,
+      "ParentId": 2704,
+      "Name": "ELOPURA",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2590,
+      "CategoryId": 1835,
+      "ParentId": 2158,
+      "Name": "ENDAU",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2796,
+      "CategoryId": 1835,
+      "ParentId": 1926,
+      "Name": "ENGKILILI",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2252,
+      "CategoryId": 1835,
+      "ParentId": 2032,
+      "Name": "GAAL",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2537,
+      "CategoryId": 1835,
+      "ParentId": 2139,
+      "Name": "GADEK",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2265,
+      "CategoryId": 1835,
+      "ParentId": 2036,
+      "Name": "GALAS",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2567,
+      "CategoryId": 1835,
+      "ParentId": 2148,
+      "Name": "GAMBIR",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3384,
+      "CategoryId": 1835,
+      "ParentId": 1923,
+      "Name": "GEDONG",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2528,
+      "CategoryId": 1835,
+      "ParentId": 2137,
+      "Name": "GEMAS",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2529,
+      "CategoryId": 1835,
+      "ParentId": 2137,
+      "Name": "GEMENCHEH",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2455,
+      "CategoryId": 1835,
+      "ParentId": 2102,
+      "Name": "GOMBAK SETIA",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2433,
+      "CategoryId": 1835,
+      "ParentId": 2094,
+      "Name": "GUAI",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2247,
+      "CategoryId": 1835,
+      "ParentId": 2031,
+      "Name": "GUAL IPOH",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2235,
+      "CategoryId": 1835,
+      "ParentId": 2027,
+      "Name": "GUAL PERIOK",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2205,
+      "CategoryId": 1835,
+      "ParentId": 2016,
+      "Name": "GUAR CHEMPEDAK",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2182,
+      "CategoryId": 1835,
+      "ParentId": 2007,
+      "Name": "GUAR SANJI",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2260,
+      "CategoryId": 1835,
+      "ParentId": 2035,
+      "Name": "GUCHIL",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2751,
+      "CategoryId": 1835,
+      "ParentId": 2702,
+      "Name": "GUM-GUM",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2348,
+      "CategoryId": 1835,
+      "ParentId": 2062,
+      "Name": "GUNONG SEMANGGOL",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2206,
+      "CategoryId": 1835,
+      "ParentId": 2016,
+      "Name": "GURUN",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2443,
+      "CategoryId": 1835,
+      "ParentId": 2098,
+      "Name": "HULU BERNAM",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2269,
+      "CategoryId": 1835,
+      "ParentId": 2037,
+      "Name": "HULU BESUT",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2456,
+      "CategoryId": 1835,
+      "ParentId": 2102,
+      "Name": "HULU KELANG",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2361,
+      "CategoryId": 1835,
+      "ParentId": 2067,
+      "Name": "HULU KINTA",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2391,
+      "CategoryId": 1835,
+      "ParentId": 2079,
+      "Name": "HUTAN MELINTANG",
+      "Code": "N.54",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2449,
+      "CategoryId": 1835,
+      "ParentId": 2100,
+      "Name": "IJOK",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2723,
+      "CategoryId": 1835,
+      "ParentId": 2689,
+      "Name": "INANAM",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2177,
+      "CategoryId": 1835,
+      "ParentId": 2006,
+      "Name": "INDERA KAYANGAN",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2412,
+      "CategoryId": 1835,
+      "ParentId": 2087,
+      "Name": "INDERAPURA",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2270,
+      "CategoryId": 1835,
+      "ParentId": 2038,
+      "Name": "JABI",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2359,
+      "CategoryId": 1835,
+      "ParentId": 2066,
+      "Name": "JALONG",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2316,
+      "CategoryId": 1835,
+      "ParentId": 2051,
+      "Name": "JAWI",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2398,
+      "CategoryId": 1835,
+      "ParentId": 2082,
+      "Name": "JELAI",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2368,
+      "CategoryId": 1835,
+      "ParentId": 2070,
+      "Name": "JELAPANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2242,
+      "CategoryId": 1835,
+      "ParentId": 2029,
+      "Name": "JELAWAT",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2560,
+      "CategoryId": 1835,
+      "ParentId": 2144,
+      "Name": "JEMENTAH",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2806,
+      "CategoryId": 1835,
+      "ParentId": 1930,
+      "Name": "JEMORENG",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2423,
+      "CategoryId": 1835,
+      "ParentId": 2091,
+      "Name": "JENDERAK",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2208,
+      "CategoryId": 1835,
+      "ParentId": 2017,
+      "Name": "JENERI",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2425,
+      "CategoryId": 1835,
+      "ParentId": 2091,
+      "Name": "JENGKA",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2826,
+      "CategoryId": 1835,
+      "ParentId": 1940,
+      "Name": "JEPAK",
+      "Code": "N.67",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2450,
+      "CategoryId": 1835,
+      "ParentId": 2100,
+      "Name": "JERAM",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2501,
+      "CategoryId": 1835,
+      "ParentId": 2131,
+      "Name": "JERAM PADANG",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2268,
+      "CategoryId": 1835,
+      "ParentId": 2037,
+      "Name": "JERTIH",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2190,
+      "CategoryId": 1835,
+      "ParentId": 2010,
+      "Name": "JITRA",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2513,
+      "CategoryId": 1835,
+      "ParentId": 2133,
+      "Name": "JOHOL",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2600,
+      "CategoryId": 1835,
+      "ParentId": 2163,
+      "Name": "JOHOR JAYA",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2595,
+      "CategoryId": 1835,
+      "ParentId": 2160,
+      "Name": "JOHOR LAMA",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2566,
+      "CategoryId": 1835,
+      "ParentId": 2147,
+      "Name": "JORAK",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2509,
+      "CategoryId": 1835,
+      "ParentId": 2133,
+      "Name": "JUASSEH",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3385,
+      "CategoryId": 1835,
+      "ParentId": 1928,
+      "Name": "KABONG",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2717,
+      "CategoryId": 1835,
+      "ParentId": 2687,
+      "Name": "KADAMAIAN",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2244,
+      "CategoryId": 1835,
+      "ParentId": 2030,
+      "Name": "KADOK",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2589,
+      "CategoryId": 1835,
+      "ParentId": 2157,
+      "Name": "KAHANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2463,
+      "CategoryId": 1835,
+      "ParentId": 2105,
+      "Name": "KAJANG",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2821,
+      "CategoryId": 1835,
+      "ParentId": 1937,
+      "Name": "KAKUS",
+      "Code": "N.60",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2801,
+      "CategoryId": 1835,
+      "ParentId": 1928,
+      "Name": "KALAKA",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2386,
+      "CategoryId": 1835,
+      "ParentId": 2077,
+      "Name": "KAMPONG GAJAH",
+      "Code": "N.49",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2473,
+      "CategoryId": 1835,
+      "ParentId": 2110,
+      "Name": "KAMPUNG TUNKU",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2353,
+      "CategoryId": 1835,
+      "ParentId": 2064,
+      "Name": "KAMUNTING",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2729,
+      "CategoryId": 1835,
+      "ParentId": 2692,
+      "Name": "KAPAYAN",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2722,
+      "CategoryId": 1835,
+      "ParentId": 2689,
+      "Name": "KARAMBUNAI",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2754,
+      "CategoryId": 1835,
+      "ParentId": 2703,
+      "Name": "KARAMUNTING",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2740,
+      "CategoryId": 1835,
+      "ParentId": 2697,
+      "Name": "KARANAAN",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2823,
+      "CategoryId": 1835,
+      "ParentId": 1938,
+      "Name": "KATIBAS",
+      "Code": "N.62",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2731,
+      "CategoryId": 1835,
+      "ParentId": 2693,
+      "Name": "KAWANG",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2179,
+      "CategoryId": 1835,
+      "ParentId": 2006,
+      "Name": "KAYANG",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2321,
+      "CategoryId": 1835,
+      "ParentId": 2052,
+      "Name": "KEBUN BUNGA",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2787,
+      "CategoryId": 1835,
+      "ParentId": 1922,
+      "Name": "KEDUP",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2222,
+      "CategoryId": 1835,
+      "ParentId": 2023,
+      "Name": "KELABORAN",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2544,
+      "CategoryId": 1835,
+      "ParentId": 2140,
+      "Name": "KELEBANG",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2746,
+      "CategoryId": 1835,
+      "ParentId": 2699,
+      "Name": "KEMABONG",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2248,
+      "CategoryId": 1835,
+      "ParentId": 2031,
+      "Name": "KEMAHANG",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2294,
+      "CategoryId": 1835,
+      "ParentId": 2044,
+      "Name": "KEMASIK",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2435,
+      "CategoryId": 1835,
+      "ParentId": 2094,
+      "Name": "KEMAYAN",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2562,
+      "CategoryId": 1835,
+      "ParentId": 2145,
+      "Name": "KEMELAH",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2828,
+      "CategoryId": 1835,
+      "ParentId": 1940,
+      "Name": "KEMENA",
+      "Code": "N.69",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2605,
+      "CategoryId": 1835,
+      "ParentId": 2165,
+      "Name": "KEMPAS",
+      "Code": "N.47",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2255,
+      "CategoryId": 1835,
+      "ParentId": 2033,
+      "Name": "KEMUNING",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2340,
+      "CategoryId": 1835,
+      "ParentId": 2059,
+      "Name": "KENERING",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2366,
+      "CategoryId": 1835,
+      "ParentId": 2069,
+      "Name": "KEPAYANG",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2615,
+      "CategoryId": 1835,
+      "ParentId": 2118,
+      "Name": "KEPONG",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2378,
+      "CategoryId": 1835,
+      "ParentId": 2074,
+      "Name": "KERANJI",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2424,
+      "CategoryId": 1835,
+      "ParentId": 2091,
+      "Name": "KERDAU",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2549,
+      "CategoryId": 1835,
+      "ParentId": 2142,
+      "Name": "KESIDANG",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2430,
+      "CategoryId": 1835,
+      "ParentId": 2093,
+      "Name": "KETARI",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2295,
+      "CategoryId": 1835,
+      "ParentId": 2044,
+      "Name": "KIJAL",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2225,
+      "CategoryId": 1835,
+      "ParentId": 2024,
+      "Name": "KIJANG",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2468,
+      "CategoryId": 1835,
+      "ParentId": 2107,
+      "Name": "KINRARA",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2721,
+      "CategoryId": 1835,
+      "ParentId": 2688,
+      "Name": "KIULU",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2498,
+      "CategoryId": 1835,
+      "ParentId": 2130,
+      "Name": "KLAWANG",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2735,
+      "CategoryId": 1835,
+      "ParentId": 2695,
+      "Name": "KLIAS",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2245,
+      "CategoryId": 1835,
+      "ParentId": 2030,
+      "Name": "KOK LANAS",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2325,
+      "CategoryId": 1835,
+      "ParentId": 2053,
+      "Name": "KOMTAR",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2522,
+      "CategoryId": 1835,
+      "ParentId": 2135,
+      "Name": "KOTA",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2486,
+      "CategoryId": 1835,
+      "ParentId": 2114,
+      "Name": "KOTA ALAM SHAH",
+      "Code": "N.48",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2478,
+      "CategoryId": 1835,
+      "ParentId": 2112,
+      "Name": "KOTA ANGGERIK",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2477,
+      "CategoryId": 1835,
+      "ParentId": 2111,
+      "Name": "KOTA DAMANSARA",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2197,
+      "CategoryId": 1835,
+      "ParentId": 2013,
+      "Name": "KOTA DARUL AMAN",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2550,
+      "CategoryId": 1835,
+      "ParentId": 2142,
+      "Name": "KOTA LAKSAMANA",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2229,
+      "CategoryId": 1835,
+      "ParentId": 2025,
+      "Name": "KOTA LAMA",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2267,
+      "CategoryId": 1835,
+      "ParentId": 2037,
+      "Name": "KOTA PUTERA",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2780,
+      "CategoryId": 1835,
+      "ParentId": 1919,
+      "Name": "KOTA SENTOSA",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2187,
+      "CategoryId": 1835,
+      "ParentId": 2009,
+      "Name": "KOTA SIPUTEH",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2341,
+      "CategoryId": 1835,
+      "ParentId": 2059,
+      "Name": "KOTA TAMPAN",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2802,
+      "CategoryId": 1835,
+      "ParentId": 1928,
+      "Name": "KRIAN",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2186,
+      "CategoryId": 1835,
+      "ParentId": 2008,
+      "Name": "KUAH",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2258,
+      "CategoryId": 1835,
+      "ParentId": 2034,
+      "Name": "KUALA BALAH",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2288,
+      "CategoryId": 1835,
+      "ParentId": 2042,
+      "Name": "KUALA BERANG",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2266,
+      "CategoryId": 1835,
+      "ParentId": 2037,
+      "Name": "KUALA BESUT",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2216,
+      "CategoryId": 1835,
+      "ParentId": 2020,
+      "Name": "KUALA KETIL",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2444,
+      "CategoryId": 1835,
+      "ParentId": 2098,
+      "Name": "KUALA KUBU BAHARU",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2346,
+      "CategoryId": 1835,
+      "ParentId": 2061,
+      "Name": "KUALA KURAU",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2531,
+      "CategoryId": 1835,
+      "ParentId": 2138,
+      "Name": "KUALA LINGGI",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2191,
+      "CategoryId": 1835,
+      "ParentId": 2011,
+      "Name": "KUALA NERANG",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2736,
+      "CategoryId": 1835,
+      "ParentId": 2695,
+      "Name": "KUALA PENYU",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2178,
+      "CategoryId": 1835,
+      "ParentId": 2006,
+      "Name": "KUALA PERLIS",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2803,
+      "CategoryId": 1835,
+      "ParentId": 1929,
+      "Name": "KUALA RAJANG",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2350,
+      "CategoryId": 1835,
+      "ParentId": 2063,
+      "Name": "KUALA SAPETANG",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2428,
+      "CategoryId": 1835,
+      "ParentId": 2092,
+      "Name": "KUALA SEMANTAN",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2421,
+      "CategoryId": 1835,
+      "ParentId": 2090,
+      "Name": "KUALA SENTUL",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2757,
+      "CategoryId": 1835,
+      "ParentId": 2705,
+      "Name": "KUAMUT",
+      "Code": "N.47",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2451,
+      "CategoryId": 1835,
+      "ParentId": 2101,
+      "Name": "KUANG",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2200,
+      "CategoryId": 1835,
+      "ParentId": 2014,
+      "Name": "KUBANG ROTAN",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2343,
+      "CategoryId": 1835,
+      "ParentId": 2060,
+      "Name": "KUBU GAJAH",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2614,
+      "CategoryId": 1835,
+      "ParentId": 2169,
+      "Name": "KUKUP",
+      "Code": "N.56",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2219,
+      "CategoryId": 1835,
+      "ParentId": 2022,
+      "Name": "KULIM",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2761,
+      "CategoryId": 1835,
+      "ParentId": 2706,
+      "Name": "KUNAK",
+      "Code": "N.51",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2739,
+      "CategoryId": 1835,
+      "ParentId": 2697,
+      "Name": "KUNDASANG",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2215,
+      "CategoryId": 1835,
+      "ParentId": 2020,
+      "Name": "KUPANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2514,
+      "CategoryId": 1835,
+      "ParentId": 2134,
+      "Name": "LABU",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2710,
+      "CategoryId": 1835,
+      "ParentId": 2684,
+      "Name": "LABUAN",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2750,
+      "CategoryId": 1835,
+      "ParentId": 2701,
+      "Name": "LABUK",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2280,
+      "CategoryId": 1835,
+      "ParentId": 2040,
+      "Name": "LADANG",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2760,
+      "CategoryId": 1835,
+      "ParentId": 2706,
+      "Name": "LAHAD DATU",
+      "Code": "N.50",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2830,
+      "CategoryId": 1835,
+      "ParentId": 1941,
+      "Name": "LAMBIR",
+      "Code": "N.72",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2427,
+      "CategoryId": 1835,
+      "ParentId": 2092,
+      "Name": "LANCHANG",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2272,
+      "CategoryId": 1835,
+      "ParentId": 2038,
+      "Name": "LANGKAP",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2585,
+      "CategoryId": 1835,
+      "ParentId": 2155,
+      "Name": "LAYANG-LAYANG",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2799,
+      "CategoryId": 1835,
+      "ParentId": 1927,
+      "Name": "LAYAR",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2458,
+      "CategoryId": 1835,
+      "ParentId": 2103,
+      "Name": "LEMBAH JAYA",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2622,
+      "CategoryId": 1835,
+      "ParentId": 2125,
+      "Name": "LEMBAH PANTAI",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2534,
+      "CategoryId": 1835,
+      "ParentId": 2138,
+      "Name": "LENDU",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2503,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "LENGGENG",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2414,
+      "CategoryId": 1835,
+      "ParentId": 2088,
+      "Name": "LEPAR",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2744,
+      "CategoryId": 1835,
+      "ParentId": 2698,
+      "Name": "LIAWAN",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2724,
+      "CategoryId": 1835,
+      "ParentId": 2690,
+      "Name": "LIKAS",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2250,
+      "CategoryId": 1835,
+      "ParentId": 2032,
+      "Name": "LIMBONGAN",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2791,
+      "CategoryId": 1835,
+      "ParentId": 1924,
+      "Name": "LINGGA",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2526,
+      "CategoryId": 1835,
+      "ParentId": 2136,
+      "Name": "LINGGI",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2358,
+      "CategoryId": 1835,
+      "ParentId": 2066,
+      "Name": "LINTANG",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2505,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "LOBAK",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2357,
+      "CategoryId": 1835,
+      "ParentId": 2065,
+      "Name": "LUBOK MERBAU",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2420,
+      "CategoryId": 1835,
+      "ParentId": 2090,
+      "Name": "LUIT",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2524,
+      "CategoryId": 1835,
+      "ParentId": 2136,
+      "Name": "LUKUT",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2737,
+      "CategoryId": 1835,
+      "ParentId": 2696,
+      "Name": "LUMADAN",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2218,
+      "CategoryId": 1835,
+      "ParentId": 2021,
+      "Name": "LUNAS",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2726,
+      "CategoryId": 1835,
+      "ParentId": 2690,
+      "Name": "LUYANG",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2812,
+      "CategoryId": 1835,
+      "ParentId": 1933,
+      "Name": "MACHAN",
+      "Code": "N.50",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2311,
+      "CategoryId": 1835,
+      "ParentId": 2049,
+      "Name": "MACHANG BUBUK",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2584,
+      "CategoryId": 1835,
+      "ParentId": 2155,
+      "Name": "MACHAP",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2538,
+      "CategoryId": 1835,
+      "ParentId": 2139,
+      "Name": "MACHAP",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2573,
+      "CategoryId": 1835,
+      "ParentId": 2150,
+      "Name": "MAHARANI",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2587,
+      "CategoryId": 1835,
+      "ParentId": 2156,
+      "Name": "MAHKOTA",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2377,
+      "CategoryId": 1835,
+      "ParentId": 2074,
+      "Name": "MALIM NAWAR",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2517,
+      "CategoryId": 1835,
+      "ParentId": 2134,
+      "Name": "MAMBAU",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2784,
+      "CategoryId": 1835,
+      "ParentId": 1921,
+      "Name": "MAMBONG",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2261,
+      "CategoryId": 1835,
+      "ParentId": 2035,
+      "Name": "MANEK URAI",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2287,
+      "CategoryId": 1835,
+      "ParentId": 2042,
+      "Name": "MANIR",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2360,
+      "CategoryId": 1835,
+      "ParentId": 2067,
+      "Name": "MANJOI",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2372,
+      "CategoryId": 1835,
+      "ParentId": 2071,
+      "Name": "MANONG",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2834,
+      "CategoryId": 1835,
+      "ParentId": 1943,
+      "Name": "MARUDI",
+      "Code": "N.76",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2173,
+      "CategoryId": 1835,
+      "ParentId": 2005,
+      "Name": "MATA AYER",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2714,
+      "CategoryId": 1835,
+      "ParentId": 2686,
+      "Name": "MATUNGGONG",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2745,
+      "CategoryId": 1835,
+      "ParentId": 2699,
+      "Name": "MELALAP",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2243,
+      "CategoryId": 1835,
+      "ParentId": 2030,
+      "Name": "MELOR",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2810,
+      "CategoryId": 1835,
+      "ParentId": 1932,
+      "Name": "MELUAN",
+      "Code": "N.48",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2734,
+      "CategoryId": 1835,
+      "ParentId": 2694,
+      "Name": "MEMBAKUT",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2259,
+      "CategoryId": 1835,
+      "ParentId": 2035,
+      "Name": "MENGKEBANG",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2586,
+      "CategoryId": 1835,
+      "ParentId": 2156,
+      "Name": "MENGKIBOL",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2369,
+      "CategoryId": 1835,
+      "ParentId": 2070,
+      "Name": "MENGLEMBU",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2426,
+      "CategoryId": 1835,
+      "ParentId": 2092,
+      "Name": "MENTAKAB",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2808,
+      "CategoryId": 1835,
+      "ParentId": 1931,
+      "Name": "MERADONG",
+      "Code": "N.46",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2234,
+      "CategoryId": 1835,
+      "ParentId": 2027,
+      "Name": "MERANTI",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2217,
+      "CategoryId": 1835,
+      "ParentId": 2021,
+      "Name": "MERBAU PULAS",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2557,
+      "CategoryId": 1835,
+      "ParentId": 2143,
+      "Name": "MERLIMAU",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2768,
+      "CategoryId": 1835,
+      "ParentId": 2709,
+      "Name": "MEROTAI",
+      "Code": "N.58",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2480,
+      "CategoryId": 1835,
+      "ParentId": 2113,
+      "Name": "MERU",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2491,
+      "CategoryId": 1835,
+      "ParentId": 2116,
+      "Name": "MORIB",
+      "Code": "N.53",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2730,
+      "CategoryId": 1835,
+      "ParentId": 2692,
+      "Name": "MOYOG",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2437,
+      "CategoryId": 1835,
+      "ParentId": 2095,
+      "Name": "MUADZAM SHAH",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2783,
+      "CategoryId": 1835,
+      "ParentId": 1920,
+      "Name": "MUARA TUANG",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3391,
+      "CategoryId": 1835,
+      "ParentId": 1943,
+      "Name": "MULU",
+      "Code": "N.78",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3388,
+      "CategoryId": 1835,
+      "ParentId": 1939,
+      "Name": "MURUM",
+      "Code": "N.66",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2748,
+      "CategoryId": 1835,
+      "ParentId": 2700,
+      "Name": "NABAWAN",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2817,
+      "CategoryId": 1835,
+      "ParentId": 1935,
+      "Name": "NANGKA",
+      "Code": "N.55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2263,
+      "CategoryId": 1835,
+      "ParentId": 2036,
+      "Name": "NENGGIRI",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2811,
+      "CategoryId": 1835,
+      "ParentId": 1933,
+      "Name": "NGEMAH",
+      "Code": "N.49",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2504,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "NILAI",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2607,
+      "CategoryId": 1835,
+      "ParentId": 2166,
+      "Name": "NUSA JAYA",
+      "Code": "N.49",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1890,
+      "CategoryId": 1835,
+      "ParentId": 1889,
+      "Name": "Opar",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2323,
+      "CategoryId": 1835,
+      "ParentId": 2053,
+      "Name": "PADANG KOTA",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2312,
+      "CategoryId": 1835,
+      "ParentId": 2049,
+      "Name": "PADANG LALANG",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2399,
+      "CategoryId": 1835,
+      "ParentId": 2083,
+      "Name": "PADANG TENGKU",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2777,
+      "CategoryId": 1835,
+      "ParentId": 1918,
+      "Name": "PADUNGAN",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2741,
+      "CategoryId": 1835,
+      "ParentId": 2697,
+      "Name": "PAGINATAN",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2293,
+      "CategoryId": 1835,
+      "ParentId": 2043,
+      "Name": "PAKA",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2809,
+      "CategoryId": 1835,
+      "ParentId": 1932,
+      "Name": "PAKAN",
+      "Code": "N.47",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2588,
+      "CategoryId": 1835,
+      "ParentId": 2157,
+      "Name": "PALOH",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2264,
+      "CategoryId": 1835,
+      "ParentId": 2036,
+      "Name": "PALOH",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2500,
+      "CategoryId": 1835,
+      "ParentId": 2131,
+      "Name": "PALONG",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2415,
+      "CategoryId": 1835,
+      "ParentId": 2088,
+      "Name": "PANCHING",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2227,
+      "CategoryId": 1835,
+      "ParentId": 2024,
+      "Name": "PANCHOR",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2485,
+      "CategoryId": 1835,
+      "ParentId": 2114,
+      "Name": "PANDAMARAN",
+      "Code": "N.47",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2389,
+      "CategoryId": 1835,
+      "ParentId": 2078,
+      "Name": "PANGKOR",
+      "Code": "N.52",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2772,
+      "CategoryId": 1835,
+      "ParentId": 1916,
+      "Name": "PANTAI DAMAI",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2333,
+      "CategoryId": 1835,
+      "ParentId": 2056,
+      "Name": "PANTAI JEREJAK",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2542,
+      "CategoryId": 1835,
+      "ParentId": 2140,
+      "Name": "PANTAI KUNDOR",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2732,
+      "CategoryId": 1835,
+      "ParentId": 2693,
+      "Name": "PANTAI MANIS",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2211,
+      "CategoryId": 1835,
+      "ParentId": 2019,
+      "Name": "PANTAI MERDEKA",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2374,
+      "CategoryId": 1835,
+      "ParentId": 2072,
+      "Name": "PANTAI REMIS",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2592,
+      "CategoryId": 1835,
+      "ParentId": 2159,
+      "Name": "PANTI",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2580,
+      "CategoryId": 1835,
+      "ParentId": 2153,
+      "Name": "PARIT RAJA",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2579,
+      "CategoryId": 1835,
+      "ParentId": 2153,
+      "Name": "PARIT YAANI",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2519,
+      "CategoryId": 1835,
+      "ParentId": 2135,
+      "Name": "PAROI",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2392,
+      "CategoryId": 1835,
+      "ParentId": 2080,
+      "Name": "PASIR BEDAMAR",
+      "Code": "N.55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2388,
+      "CategoryId": 1835,
+      "ParentId": 2078,
+      "Name": "PASIR PANJANG",
+      "Code": "N.51",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2223,
+      "CategoryId": 1835,
+      "ParentId": 2023,
+      "Name": "PASIR PEKAN",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2364,
+      "CategoryId": 1835,
+      "ParentId": 2068,
+      "Name": "PASIR PINJI",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2593,
+      "CategoryId": 1835,
+      "ParentId": 2159,
+      "Name": "PASIR RAJA",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2238,
+      "CategoryId": 1835,
+      "ParentId": 2028,
+      "Name": "PASIR TUMBOH",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2180,
+      "CategoryId": 1835,
+      "ParentId": 2007,
+      "Name": "PAUH",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2476,
+      "CategoryId": 1835,
+      "ParentId": 2111,
+      "Name": "PAYA JARAS",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2543,
+      "CategoryId": 1835,
+      "ParentId": 2140,
+      "Name": "PAYA RUMPUT",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2331,
+      "CategoryId": 1835,
+      "ParentId": 2055,
+      "Name": "PAYA TERUBONG",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2192,
+      "CategoryId": 1835,
+      "ParentId": 2011,
+      "Name": "PEDU",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2613,
+      "CategoryId": 1835,
+      "ParentId": 2169,
+      "Name": "PEKAN NENAS",
+      "Code": "N.55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2484,
+      "CategoryId": 1835,
+      "ParentId": 2114,
+      "Name": "PELABUHAN KLANG",
+      "Code": "N.46",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2822,
+      "CategoryId": 1835,
+      "ParentId": 1938,
+      "Name": "PELAGUS",
+      "Code": "N.61",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2432,
+      "CategoryId": 1835,
+      "ParentId": 2093,
+      "Name": "PELANGAI",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2816,
+      "CategoryId": 1835,
+      "ParentId": 1935,
+      "Name": "PELAWAN",
+      "Code": "N.54",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2561,
+      "CategoryId": 1835,
+      "ParentId": 2145,
+      "Name": "PEMANIS",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2298,
+      "CategoryId": 1835,
+      "ParentId": 2045,
+      "Name": "PENAGA",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2309,
+      "CategoryId": 1835,
+      "ParentId": 2048,
+      "Name": "PENANTI",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2596,
+      "CategoryId": 1835,
+      "ParentId": 2161,
+      "Name": "PENAWAR",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2778,
+      "CategoryId": 1835,
+      "ParentId": 1918,
+      "Name": "PENDING",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2581,
+      "CategoryId": 1835,
+      "ParentId": 2154,
+      "Name": "PENGGARAM",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2373,
+      "CategoryId": 1835,
+      "ParentId": 2072,
+      "Name": "PENGKALAN BAHARU",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2285,
+      "CategoryId": 1835,
+      "ParentId": 2041,
+      "Name": "PENGKALAN BERANGAN",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2338,
+      "CategoryId": 1835,
+      "ParentId": 2058,
+      "Name": "PENGKALAN HULU",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2324,
+      "CategoryId": 1835,
+      "ParentId": 2053,
+      "Name": "PENGKALAN KOTA",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2221,
+      "CategoryId": 1835,
+      "ParentId": 2023,
+      "Name": "PENGKALAN KUBOR",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2201,
+      "CategoryId": 1835,
+      "ParentId": 2014,
+      "Name": "PENGKALAN KUNDOR",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2232,
+      "CategoryId": 1835,
+      "ParentId": 2026,
+      "Name": "PENGKALAN PASIR",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2604,
+      "CategoryId": 1835,
+      "ParentId": 2165,
+      "Name": "PENGKALAN RINTING",
+      "Code": "N.46",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2313,
+      "CategoryId": 1835,
+      "ParentId": 2050,
+      "Name": "PERAI",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2417,
+      "CategoryId": 1835,
+      "ParentId": 2089,
+      "Name": "PERAMU JAYA",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2271,
+      "CategoryId": 1835,
+      "ParentId": 2038,
+      "Name": "PERMAISURI",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2601,
+      "CategoryId": 1835,
+      "ParentId": 2163,
+      "Name": "PERMAS",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2447,
+      "CategoryId": 1835,
+      "ParentId": 2099,
+      "Name": "PERMATANG",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2301,
+      "CategoryId": 1835,
+      "ParentId": 2046,
+      "Name": "PERMATANG BERANGAN",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2308,
+      "CategoryId": 1835,
+      "ParentId": 2048,
+      "Name": "PERMATANG PASIR",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2496,
+      "CategoryId": 1835,
+      "ParentId": 2130,
+      "Name": "PERTANG",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2241,
+      "CategoryId": 1835,
+      "ParentId": 2029,
+      "Name": "PERUPOK",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2728,
+      "CategoryId": 1835,
+      "ParentId": 2691,
+      "Name": "PETAGAS",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2831,
+      "CategoryId": 1835,
+      "ParentId": 1942,
+      "Name": "PIASAU",
+      "Code": "N.73",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2512,
+      "CategoryId": 1835,
+      "ParentId": 2133,
+      "Name": "PILAH",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2300,
+      "CategoryId": 1835,
+      "ParentId": 2045,
+      "Name": "PINANG TUNGGAL",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2713,
+      "CategoryId": 1835,
+      "ParentId": 2685,
+      "Name": "PITAS",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2354,
+      "CategoryId": 1835,
+      "ParentId": 2064,
+      "Name": "POKOK ASSAM",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2527,
+      "CategoryId": 1835,
+      "ParentId": 2136,
+      "Name": "PORT DICKSON",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2832,
+      "CategoryId": 1835,
+      "ParentId": 1942,
+      "Name": "PUJUT",
+      "Code": "N.74",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2253,
+      "CategoryId": 1835,
+      "ParentId": 2033,
+      "Name": "PULAI CHONDONG",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2612,
+      "CategoryId": 1835,
+      "ParentId": 2168,
+      "Name": "PULAI SEBATANG",
+      "Code": "N.54",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2336,
+      "CategoryId": 1835,
+      "ParentId": 2057,
+      "Name": "PULAU BETONG",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2416,
+      "CategoryId": 1835,
+      "ParentId": 2089,
+      "Name": "PULAU MANIS",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2407,
+      "CategoryId": 1835,
+      "ParentId": 2085,
+      "Name": "PULAU TAWAR",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2322,
+      "CategoryId": 1835,
+      "ParentId": 2052,
+      "Name": "PULAU TIKUS",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2599,
+      "CategoryId": 1835,
+      "ParentId": 2162,
+      "Name": "PUTERI WANGSA",
+      "Code": "N.41",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2626,
+      "CategoryId": 1835,
+      "ParentId": 2129,
+      "Name": "PUTRAJAYA",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2516,
+      "CategoryId": 1835,
+      "ParentId": 2134,
+      "Name": "RAHANG",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2521,
+      "CategoryId": 1835,
+      "ParentId": 2135,
+      "Name": "RANTAU",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2291,
+      "CategoryId": 1835,
+      "ParentId": 2043,
+      "Name": "RANTAU ABANG",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2452,
+      "CategoryId": 1835,
+      "ParentId": 2101,
+      "Name": "RAWANG",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2536,
+      "CategoryId": 1835,
+      "ParentId": 2139,
+      "Name": "REMBIA",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2583,
+      "CategoryId": 1835,
+      "ParentId": 2154,
+      "Name": "RENGIT",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2530,
+      "CategoryId": 1835,
+      "ParentId": 2137,
+      "Name": "REPAH",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2807,
+      "CategoryId": 1835,
+      "ParentId": 1931,
+      "Name": "REPOK",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2555,
+      "CategoryId": 1835,
+      "ParentId": 2143,
+      "Name": "RIM",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2284,
+      "CategoryId": 1835,
+      "ParentId": 2041,
+      "Name": "RU RENDANG",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2390,
+      "CategoryId": 1835,
+      "ParentId": 2079,
+      "Name": "RUNGKUP",
+      "Code": "N.53",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2431,
+      "CategoryId": 1835,
+      "ParentId": 2093,
+      "Name": "SABAI",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2440,
+      "CategoryId": 1835,
+      "ParentId": 2096,
+      "Name": "SABAK",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2788,
+      "CategoryId": 1835,
+      "ParentId": 1923,
+      "Name": "SADONG JAYA",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2237,
+      "CategoryId": 1835,
+      "ParentId": 2028,
+      "Name": "SALOR",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3389,
+      "CategoryId": 1835,
+      "ParentId": 1940,
+      "Name": "SAMALAJU",
+      "Code": "N.70",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2775,
+      "CategoryId": 1835,
+      "ParentId": 1917,
+      "Name": "SAMARIANG",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2184,
+      "CategoryId": 1835,
+      "ParentId": 2007,
+      "Name": "SANGLANG",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2174,
+      "CategoryId": 1835,
+      "ParentId": 2005,
+      "Name": "SANTAN",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2798,
+      "CategoryId": 1835,
+      "ParentId": 1927,
+      "Name": "SARIBAS",
+      "Code": "N.35",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2776,
+      "CategoryId": 1835,
+      "ParentId": 1917,
+      "Name": "SATOK",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2770,
+      "CategoryId": 1835,
+      "ParentId": 2709,
+      "Name": "SEBATIK",
+      "Code": "N.60",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2307,
+      "CategoryId": 1835,
+      "ParentId": 2048,
+      "Name": "SEBERANG JAYA",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2276,
+      "CategoryId": 1835,
+      "ParentId": 2039,
+      "Name": "SEBERANG TAKIR",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2790,
+      "CategoryId": 1835,
+      "ParentId": 1924,
+      "Name": "SEBUYAU",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2594,
+      "CategoryId": 1835,
+      "ParentId": 2160,
+      "Name": "SEDILI",
+      "Code": "N.36",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2618,
+      "CategoryId": 1835,
+      "ParentId": 2121,
+      "Name": "SEGAMBUT",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2442,
+      "CategoryId": 1835,
+      "ParentId": 2097,
+      "Name": "SEKINCHAN",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2753,
+      "CategoryId": 1835,
+      "ParentId": 2703,
+      "Name": "SEKONG",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2342,
+      "CategoryId": 1835,
+      "ParentId": 2060,
+      "Name": "SELAMA",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2483,
+      "CategoryId": 1835,
+      "ParentId": 2113,
+      "Name": "SELAT KLANG",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2349,
+      "CategoryId": 1835,
+      "ParentId": 2062,
+      "Name": "SELINSING",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2249,
+      "CategoryId": 1835,
+      "ParentId": 2032,
+      "Name": "SELISING",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2409,
+      "CategoryId": 1835,
+      "ParentId": 2086,
+      "Name": "SEMAMBU",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2578,
+      "CategoryId": 1835,
+      "ParentId": 2152,
+      "Name": "SEMARANG",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2481,
+      "CategoryId": 1835,
+      "ParentId": 2113,
+      "Name": "SEMENTA",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2462,
+      "CategoryId": 1835,
+      "ParentId": 2105,
+      "Name": "SEMENYIH",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2575,
+      "CategoryId": 1835,
+      "ParentId": 2151,
+      "Name": "SEMERAH",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2251,
+      "CategoryId": 1835,
+      "ParentId": 2032,
+      "Name": "SEMERAK",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2804,
+      "CategoryId": 1835,
+      "ParentId": 1929,
+      "Name": "SEMOP",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2176,
+      "CategoryId": 1835,
+      "ParentId": 2006,
+      "Name": "SENA",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2833,
+      "CategoryId": 1835,
+      "ParentId": 1942,
+      "Name": "SENADIN",
+      "Code": "N.75",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2610,
+      "CategoryId": 1835,
+      "ParentId": 2167,
+      "Name": "SENAI",
+      "Code": "N.52",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2511,
+      "CategoryId": 1835,
+      "ParentId": 2133,
+      "Name": "SENALING",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2763,
+      "CategoryId": 1835,
+      "ParentId": 2707,
+      "Name": "SENALLANG",
+      "Code": "N.53",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2518,
+      "CategoryId": 1835,
+      "ParentId": 2134,
+      "Name": "SENAWANG",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2582,
+      "CategoryId": 1835,
+      "ParentId": 2154,
+      "Name": "SENGGARANG",
+      "Code": "N.24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2623,
+      "CategoryId": 1835,
+      "ParentId": 2126,
+      "Name": "SEPUTEH",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3382,
+      "CategoryId": 1835,
+      "ParentId": 1921,
+      "Name": "SEREMBU",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2487,
+      "CategoryId": 1835,
+      "ParentId": 2115,
+      "Name": "SERI ANDALAS",
+      "Code": "N.49",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2329,
+      "CategoryId": 1835,
+      "ParentId": 2055,
+      "Name": "SERI DELIMA",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2466,
+      "CategoryId": 1835,
+      "ParentId": 2106,
+      "Name": "SERI KEMBANGAN",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2510,
+      "CategoryId": 1835,
+      "ParentId": 2133,
+      "Name": "SERI MENANTI",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2467,
+      "CategoryId": 1835,
+      "ParentId": 2107,
+      "Name": "SERI SERDANG",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2470,
+      "CategoryId": 1835,
+      "ParentId": 2108,
+      "Name": "SERI SETIA",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2556,
+      "CategoryId": 1835,
+      "ParentId": 2143,
+      "Name": "SERKAM",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2569,
+      "CategoryId": 1835,
+      "ParentId": 2148,
+      "Name": "SEROM",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2499,
+      "CategoryId": 1835,
+      "ParentId": 2131,
+      "Name": "SERTING",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2619,
+      "CategoryId": 1835,
+      "ParentId": 2122,
+      "Name": "SETIAWANGSA",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2213,
+      "CategoryId": 1835,
+      "ParentId": 2019,
+      "Name": "SIDAM",
+      "Code": "N.29",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2489,
+      "CategoryId": 1835,
+      "ParentId": 2116,
+      "Name": "SIJANGKANG",
+      "Code": "N.51",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2507,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "SIKAMAT",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2795,
+      "CategoryId": 1835,
+      "ParentId": 1925,
+      "Name": "SIMANGGANG",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2183,
+      "CategoryId": 1835,
+      "ParentId": 2007,
+      "Name": "SIMPANG EMPAT",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2381,
+      "CategoryId": 1835,
+      "ParentId": 2075,
+      "Name": "SIMPANG PULAI",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2789,
+      "CategoryId": 1835,
+      "ParentId": 1923,
+      "Name": "SIMUNJAN",
+      "Code": "N.25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2738,
+      "CategoryId": 1835,
+      "ParentId": 2696,
+      "Name": "SINDUMIN",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2387,
+      "CategoryId": 1835,
+      "ParentId": 2078,
+      "Name": "SITIAWAN",
+      "Code": "N.50",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2606,
+      "CategoryId": 1835,
+      "ParentId": 2166,
+      "Name": "SKUDAI",
+      "Code": "N.48",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2395,
+      "CategoryId": 1835,
+      "ParentId": 2081,
+      "Name": "SLIM",
+      "Code": "N.58",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2747,
+      "CategoryId": 1835,
+      "ParentId": 2700,
+      "Name": "SOOK",
+      "Code": "N.37",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2576,
+      "CategoryId": 1835,
+      "ParentId": 2151,
+      "Name": "SRI MEDAN",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2488,
+      "CategoryId": 1835,
+      "ParentId": 2115,
+      "Name": "SRI MUDA",
+      "Code": "N.50",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2767,
+      "CategoryId": 1835,
+      "ParentId": 2708,
+      "Name": "SRI TANJONG",
+      "Code": "N.57",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3381,
+      "CategoryId": 1835,
+      "ParentId": 1920,
+      "Name": "STAKAN",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2603,
+      "CategoryId": 1835,
+      "ParentId": 2164,
+      "Name": "STULANG",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2469,
+      "CategoryId": 1835,
+      "ParentId": 2108,
+      "Name": "SUBANG JAYA",
+      "Code": "N.31",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2749,
+      "CategoryId": 1835,
+      "ParentId": 2701,
+      "Name": "SUGUT",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2758,
+      "CategoryId": 1835,
+      "ParentId": 2705,
+      "Name": "SUKAU",
+      "Code": "N.48",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2762,
+      "CategoryId": 1835,
+      "ParentId": 2707,
+      "Name": "SULABAYAN",
+      "Code": "N.52",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2720,
+      "CategoryId": 1835,
+      "ParentId": 2688,
+      "Name": "SULAMAN",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2571,
+      "CategoryId": 1835,
+      "ParentId": 2149,
+      "Name": "SUNGAI ABONG",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2318,
+      "CategoryId": 1835,
+      "ParentId": 2051,
+      "Name": "SUNGAI ACHEH",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2439,
+      "CategoryId": 1835,
+      "ParentId": 2096,
+      "Name": "SUNGAI AIR TAWAR",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2317,
+      "CategoryId": 1835,
+      "ParentId": 2051,
+      "Name": "SUNGAI BAKAP",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2574,
+      "CategoryId": 1835,
+      "ParentId": 2150,
+      "Name": "SUNGAI BALANG",
+      "Code": "N.16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2446,
+      "CategoryId": 1835,
+      "ParentId": 2099,
+      "Name": "SUNGAI BURONG",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2302,
+      "CategoryId": 1835,
+      "ParentId": 2046,
+      "Name": "SUNGAI DUA",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2413,
+      "CategoryId": 1835,
+      "ParentId": 2088,
+      "Name": "SUNGAI LEMBING",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2204,
+      "CategoryId": 1835,
+      "ParentId": 2016,
+      "Name": "SUNGAI LIMAU",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2497,
+      "CategoryId": 1835,
+      "ParentId": 2130,
+      "Name": "SUNGAI LUI",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2385,
+      "CategoryId": 1835,
+      "ParentId": 2077,
+      "Name": "SUNGAI MANIK",
+      "Code": "N.48",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2441,
+      "CategoryId": 1835,
+      "ParentId": 2097,
+      "Name": "SUNGAI PANJANG",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2494,
+      "CategoryId": 1835,
+      "ParentId": 2117,
+      "Name": "SUNGAI PELEK",
+      "Code": "N.56",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2327,
+      "CategoryId": 1835,
+      "ParentId": 2054,
+      "Name": "SUNGAI PINANG",
+      "Code": "N.30",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2482,
+      "CategoryId": 1835,
+      "ParentId": 2113,
+      "Name": "SUNGAI PINANG",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2304,
+      "CategoryId": 1835,
+      "ParentId": 2047,
+      "Name": "SUNGAI PUYU",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2558,
+      "CategoryId": 1835,
+      "ParentId": 2143,
+      "Name": "SUNGAI RAMBAI",
+      "Code": "N.28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2380,
+      "CategoryId": 1835,
+      "ParentId": 2075,
+      "Name": "SUNGAI RAPAT",
+      "Code": "N.43",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2752,
+      "CategoryId": 1835,
+      "ParentId": 2702,
+      "Name": "SUNGAI SIBUGA",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2203,
+      "CategoryId": 1835,
+      "ParentId": 2015,
+      "Name": "SUNGAI TIANG",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2541,
+      "CategoryId": 1835,
+      "ParentId": 2140,
+      "Name": "SUNGAI UDANG",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2394,
+      "CategoryId": 1835,
+      "ParentId": 2081,
+      "Name": "SUNGKAI",
+      "Code": "N.57",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2292,
+      "CategoryId": 1835,
+      "ParentId": 2043,
+      "Name": "SURA",
+      "Code": "N.27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2535,
+      "CategoryId": 1835,
+      "ParentId": 2138,
+      "Name": "TABOH NANING",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2405,
+      "CategoryId": 1835,
+      "ParentId": 2085,
+      "Name": "TAHAN",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2471,
+      "CategoryId": 1835,
+      "ParentId": 2109,
+      "Name": "TAMAN MEDAN",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2453,
+      "CategoryId": 1835,
+      "ParentId": 2101,
+      "Name": "TAMAN TEMPLER",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2181,
+      "CategoryId": 1835,
+      "ParentId": 2007,
+      "Name": "TAMBUN TULANG",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2742,
+      "CategoryId": 1835,
+      "ParentId": 2698,
+      "Name": "TAMBUNAN",
+      "Code": "N.32",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2820,
+      "CategoryId": 1835,
+      "ParentId": 1937,
+      "Name": "TAMIN",
+      "Code": "N.59",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2719,
+      "CategoryId": 1835,
+      "ParentId": 2688,
+      "Name": "TAMPARULI",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2397,
+      "CategoryId": 1835,
+      "ParentId": 2082,
+      "Name": "TANAH RATA",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2715,
+      "CategoryId": 1835,
+      "ParentId": 2686,
+      "Name": "TANDEK",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2568,
+      "CategoryId": 1835,
+      "ParentId": 2148,
+      "Name": "TANGKAK",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2727,
+      "CategoryId": 1835,
+      "ParentId": 2691,
+      "Name": "TANJONG ARU",
+      "Code": "N.17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2769,
+      "CategoryId": 1835,
+      "ParentId": 2709,
+      "Name": "TANJONG BATU",
+      "Code": "N.59",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2827,
+      "CategoryId": 1835,
+      "ParentId": 1940,
+      "Name": "TANJONG BATU",
+      "Code": "N.68",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2319,
+      "CategoryId": 1835,
+      "ParentId": 2052,
+      "Name": "TANJONG BUNGA",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2771,
+      "CategoryId": 1835,
+      "ParentId": 1916,
+      "Name": "TANJONG DATU",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2210,
+      "CategoryId": 1835,
+      "ParentId": 2018,
+      "Name": "TANJONG DAWAI",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2712,
+      "CategoryId": 1835,
+      "ParentId": 2685,
+      "Name": "TANJONG KAPOR",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2228,
+      "CategoryId": 1835,
+      "ParentId": 2025,
+      "Name": "TANJONG MAS",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2756,
+      "CategoryId": 1835,
+      "ParentId": 2704,
+      "Name": "TANJONG PAPAT",
+      "Code": "N.46",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2602,
+      "CategoryId": 1835,
+      "ParentId": 2164,
+      "Name": "TANJONG PUTERI",
+      "Code": "N.44",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2492,
+      "CategoryId": 1835,
+      "ParentId": 2117,
+      "Name": "TANJONG SEPAT",
+      "Code": "N.54",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2597,
+      "CategoryId": 1835,
+      "ParentId": 2161,
+      "Name": "TANJONG SURAT",
+      "Code": "N.39",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2532,
+      "CategoryId": 1835,
+      "ParentId": 2138,
+      "Name": "TANJUNG BIDARA",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1892,
+      "CategoryId": 1835,
+      "ParentId": 1889,
+      "Name": "Tanjung Datu",
+      "Code": "N.03",
+      "Description": "",
+      "ActiveFlag": 0
+    },
+    {
+      "ParameterId": 2411,
+      "CategoryId": 1835,
+      "ParentId": 2087,
+      "Name": "TANJUNG LUMPUR",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2785,
+      "CategoryId": 1835,
+      "ParentId": 1921,
+      "Name": "TARAT",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1891,
+      "CategoryId": 1835,
+      "ParentId": 1889,
+      "Name": "Tasik Biru",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2240,
+      "CategoryId": 1835,
+      "ParentId": 2029,
+      "Name": "TAWANG",
+      "Code": "N.20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2786,
+      "CategoryId": 1835,
+      "ParentId": 1922,
+      "Name": "TEBEDU",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2363,
+      "CategoryId": 1835,
+      "ParentId": 2068,
+      "Name": "TEBING TINGGI",
+      "Code": "N.26",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2382,
+      "CategoryId": 1835,
+      "ParentId": 2075,
+      "Name": "TEJA",
+      "Code": "N.45",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2835,
+      "CategoryId": 1835,
+      "ParentId": 1943,
+      "Name": "TELANG USAN",
+      "Code": "N.77",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2286,
+      "CategoryId": 1835,
+      "ParentId": 2042,
+      "Name": "TELEMUNG",
+      "Code": "N.21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3386,
+      "CategoryId": 1835,
+      "ParentId": 1936,
+      "Name": "TELLIAN",
+      "Code": "N.57",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2303,
+      "CategoryId": 1835,
+      "ParentId": 2046,
+      "Name": "TELOK AYER TAWAR",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2337,
+      "CategoryId": 1835,
+      "ParentId": 2057,
+      "Name": "TELOK BAHANG",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2553,
+      "CategoryId": 1835,
+      "ParentId": 2142,
+      "Name": "TELOK MAS",
+      "Code": "N.23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2490,
+      "CategoryId": 1835,
+      "ParentId": 2116,
+      "Name": "TELUK DATUK",
+      "Code": "N.52",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2275,
+      "CategoryId": 1835,
+      "ParentId": 2039,
+      "Name": "TELUK PASU",
+      "Code": "N.10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2254,
+      "CategoryId": 1835,
+      "ParentId": 2033,
+      "Name": "TEMANGAN",
+      "Code": "N.34",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2339,
+      "CategoryId": 1835,
+      "ParentId": 2058,
+      "Name": "TEMENGOR",
+      "Code": "N.02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2506,
+      "CategoryId": 1835,
+      "ParentId": 2132,
+      "Name": "TEMIANG",
+      "Code": "N.12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2716,
+      "CategoryId": 1835,
+      "ParentId": 2687,
+      "Name": "TEMPASUK",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2563,
+      "CategoryId": 1835,
+      "ParentId": 2146,
+      "Name": "TENANG",
+      "Code": "N.05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2231,
+      "CategoryId": 1835,
+      "ParentId": 2026,
+      "Name": "TENDONG",
+      "Code": "N.11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2591,
+      "CategoryId": 1835,
+      "ParentId": 2158,
+      "Name": "TENGGAROH",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2274,
+      "CategoryId": 1835,
+      "ParentId": 2039,
+      "Name": "TEPUH",
+      "Code": "N.09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2460,
+      "CategoryId": 1835,
+      "ParentId": 2104,
+      "Name": "TERATAI",
+      "Code": "N.22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2410,
+      "CategoryId": 1835,
+      "ParentId": 2087,
+      "Name": "TERUNTUM",
+      "Code": "N.14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2438,
+      "CategoryId": 1835,
+      "ParentId": 2095,
+      "Name": "TIOMAN",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2598,
+      "CategoryId": 1835,
+      "ParentId": 2162,
+      "Name": "TIRAM",
+      "Code": "N.40",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2345,
+      "CategoryId": 1835,
+      "ParentId": 2061,
+      "Name": "TITI SERONG",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2170,
+      "CategoryId": 1835,
+      "ParentId": 2005,
+      "Name": "TITI TINGGI",
+      "Code": "N.01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2620,
+      "CategoryId": 1835,
+      "ParentId": 2123,
+      "Name": "TITIWANGSA",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2202,
+      "CategoryId": 1835,
+      "ParentId": 2015,
+      "Name": "TOKAI",
+      "Code": "N.18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2403,
+      "CategoryId": 1835,
+      "ParentId": 2084,
+      "Name": "TRAS",
+      "Code": "N.07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2434,
+      "CategoryId": 1835,
+      "ParentId": 2094,
+      "Name": "TRIANG",
+      "Code": "N.38",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2352,
+      "CategoryId": 1835,
+      "ParentId": 2063,
+      "Name": "TRONG",
+      "Code": "N.15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2370,
+      "CategoryId": 1835,
+      "ParentId": 2070,
+      "Name": "TRONOH",
+      "Code": "N.33",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2379,
+      "CategoryId": 1835,
+      "ParentId": 2074,
+      "Name": "TUALANG SEKAH",
+      "Code": "N.42",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2759,
+      "CategoryId": 1835,
+      "ParentId": 2706,
+      "Name": "TUNGKU",
+      "Code": "N.49",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2774,
+      "CategoryId": 1835,
+      "ParentId": 1917,
+      "Name": "TUPONG",
+      "Code": "N.06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2718,
+      "CategoryId": 1835,
+      "ParentId": 2687,
+      "Name": "USUKAN",
+      "Code": "N.08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2224,
+      "CategoryId": 1835,
+      "ParentId": 2023,
+      "Name": "WAKAF BHARU",
+      "Code": "N.04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2278,
+      "CategoryId": 1835,
+      "ParentId": 2040,
+      "Name": "WAKAF MEMPELAM",
+      "Code": "N.13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2617,
+      "CategoryId": 1835,
+      "ParentId": 2120,
+      "Name": "WANGSA MAJU",
+      "Code": "N.00",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2577,
+      "CategoryId": 1835,
+      "ParentId": 2152,
+      "Name": "YONG PENG",
+      "Code": "N.19",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "claimtypetbl": [
+    {
+      "ParameterId": 1859,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Accommodation",
+      "Code": "Accommodation",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1858,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Allowance",
+      "Code": "Allowance",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1861,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Courier",
+      "Code": "Courier",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1857,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Laundry",
+      "Code": "Laundry",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3229,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Medical",
+      "Code": "Medical",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1863,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Others",
+      "Code": "Others",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1862,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Token",
+      "Code": "Token",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3216,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Car Rental",
+      "Code": "CarRental",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1860,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Mileage",
+      "Code": "Mileage",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3217,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Oil",
+      "Code": "Oil",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3214,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Parking",
+      "Code": "Parking",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3218,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Ticket (Flight / Cab / Ferry)",
+      "Code": "Ticket",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3215,
+      "CategoryId": 1856,
+      "ParentId": 0,
+      "Name": "Transport - Toll",
+      "Code": "Toll",
+      "Description": "1",
+      "ActiveFlag": 1
+    }
+  ],
+  "claimratetbl": [
+    {
+      "ParameterId": 3222,
+      "CategoryId": 2971,
+      "ParentId": 0,
+      "Name": "Allowance",
+      "Code": "Allowance",
+      "Description": "50",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3223,
+      "CategoryId": 2971,
+      "ParentId": 0,
+      "Name": "Car",
+      "Code": "Car",
+      "Description": "0.65",
+      "ActiveFlag": 1
+    }
+  ],
+  "gendertbl": [
+    {
+      "ParameterId": 1996,
+      "CategoryId": 1838,
+      "ParentId": 0,
+      "Name": "Female",
+      "Code": "2",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1995,
+      "CategoryId": 1838,
+      "ParentId": 0,
+      "Name": "Male",
+      "Code": "1",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "racetbl": [
+    {
+      "ParameterId": 2676,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bajau",
+      "Code": "12",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1949,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bidayuh",
+      "Code": "07",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2871,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bisaya",
+      "Code": "14",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2872,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bugis",
+      "Code": "15",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2884,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bumi Sabah",
+      "Code": "27",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2945,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Bumi Sarawak",
+      "Code": "28",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1878,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Chinese",
+      "Code": "02",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2873,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Cocos",
+      "Code": "16",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2868,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Dusun",
+      "Code": "10",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2874,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Filipinos",
+      "Code": "17",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1948,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Iban",
+      "Code": "06",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2875,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Idahan",
+      "Code": "18",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1879,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Indian",
+      "Code": "03",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2876,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Irranun",
+      "Code": "19",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2877,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Jawa",
+      "Code": "20",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2867,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Kadazan",
+      "Code": "09",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2675,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "KDM",
+      "Code": "091011",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2878,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Kedayan",
+      "Code": "21",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2879,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Lundayeh",
+      "Code": "22",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1877,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Malay",
+      "Code": "01",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2944,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Melanau",
+      "Code": "05",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2869,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Murut",
+      "Code": "11",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1946,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Orang Asal / Orang Asli (Bumi/Melanau)",
+      "Code": "04",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2881,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Orang Sungai / Tambanuo",
+      "Code": "24",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1950,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Orang Ulu",
+      "Code": "08",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 1947,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Others",
+      "Code": "55",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2870,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Sino",
+      "Code": "13",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2880,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Suluk",
+      "Code": "23",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2882,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Tidung",
+      "Code": "25",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 2883,
+      "CategoryId": 1837,
+      "ParentId": 0,
+      "Name": "Ubian",
+      "Code": "26",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "religiontbl": [
+    {
+      "ParameterId": 3235,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Ateis - Tiada Agama",
+      "Code": "6",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3232,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Buddha",
+      "Code": "2",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3231,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Hindu",
+      "Code": "3",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3230,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Islam",
+      "Code": "1",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3233,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Kristian - Katolik  (RC sahaja)",
+      "Code": "4",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3234,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Kristian - Protestan (SIB, Anglikan, Metodis dll)",
+      "Code": "5",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3236,
+      "CategoryId": 1842,
+      "ParentId": 0,
+      "Name": "Lain-lain",
+      "Code": "7",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "banktbl": [
+    {
+      "ParameterId": 3240,
+      "CategoryId": 3237,
+      "ParentId": 0,
+      "Name": "BANK ISLAM MALAYSIA BERHAD",
+      "Code": "BIMB",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3239,
+      "CategoryId": 3237,
+      "ParentId": 0,
+      "Name": "CIMB BANK BERHAD",
+      "Code": "CIMB",
+      "Description": "",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3238,
+      "CategoryId": 3237,
+      "ParentId": 0,
+      "Name": "MAYBANK BERHAD",
+      "Code": "MBB",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "departmenttbl": [
+    {
+      "ParameterId": 3241,
+      "CategoryId": 1847,
+      "ParentId": 0,
+      "Name": "OPERATION",
+      "Code": "OP",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "positiontbl": [
+    {
+      "ParameterId": 3243,
+      "CategoryId": 3242,
+      "ParentId": 0,
+      "Name": "Field Associates",
+      "Code": "FA",
+      "Description": "",
+      "ActiveFlag": 1
+    }
+  ],
+  "teamleadertbl": [
+    {
+      "TeamLeaderId": "203",
+      "LoginId": "safarina@truevox.asia",
+      "Name": "Safarina",
+      "ActiveFlag": "1"
+    }
+  ],
+  "supervisortbl": [
+    {
+      "SupervisorId": "4",
+      "LoginId": "hamdi@truvox.asia",
+      "Name": "Hamdi Mokhtar",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "6",
+      "LoginId": "chinyee@truevox.asia",
+      "Name": "Chin Yee",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "12",
+      "LoginId": "noramirah@truevox.asia",
+      "Name": "Noramirah",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "13",
+      "LoginId": "nazerah@truevox.asia",
+      "Name": "Nazerah",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "14",
+      "LoginId": "fakhira@truevox.asia",
+      "Name": "Fakhira",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "203",
+      "LoginId": "safarina@truevox.asia",
+      "Name": "Safarina",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "222",
+      "LoginId": "azmir@truevox.asia",
+      "Name": "Azmir Rahman",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "303",
+      "LoginId": "izwan@truevox.asia",
+      "Name": "Izwan Kusairi",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "304",
+      "LoginId": "khalil@truevox.asia",
+      "Name": "Khalil",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "305",
+      "LoginId": "zulaika@truevox.asia",
+      "Name": "zulaika",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "306",
+      "LoginId": "barry@truevox.asia",
+      "Name": "Barry",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "318",
+      "LoginId": "phanida@truevox.asia",
+      "Name": "Phanida",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "319",
+      "LoginId": "darunee@truevox.asia",
+      "Name": "Darunee",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "355",
+      "LoginId": "jakfar@truevox.asia",
+      "Name": "Jakfar",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "360",
+      "LoginId": "micko@truevox.asia",
+      "Name": "Micko",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "366",
+      "LoginId": "mohdrus@truevox.asia",
+      "Name": "MOHD RUS",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "371",
+      "LoginId": "ratiya@truevox.asia",
+      "Name": "Ratiya La-Ongbua",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "396",
+      "LoginId": "raihanah@truevox.asia",
+      "Name": "Raihanah",
+      "ActiveFlag": "1",
+      "Subs": []
+    },
+    {
+      "SupervisorId": "403",
+      "LoginId": "madihah@truevox.asia",
+      "Name": "Nurmadihah Mukayat",
+      "ActiveFlag": "1",
+      "Subs": []
+    }
+  ],
+  "kpiteamleadertbl": [
+    {
+      "TeamLeaderId": "203",
+      "LoginId": "safarina@truevox.asia",
+      "Name": "Safarina",
+      "ActiveFlag": "1",
+      "Subs": []
+    }
+  ],
+  "kpicattbl": [
+    {
+      "ParameterId": 3402,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "ACCURACY",
+      "Code": "ACC",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3405,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "ACHIEVEMENT",
+      "Code": "ACH",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3403,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "ADDITIONAL QUOTA",
+      "Code": "ADD",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3371,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "DEPENDABILITY",
+      "Code": "DEP",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3370,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "DISCIPLINE",
+      "Code": "DIS",
+      "Description": "1",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3406,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "GPS",
+      "Code": "GPS",
+      "Description": "0",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3404,
+      "CategoryId": 3368,
+      "ParentId": 0,
+      "Name": "VOICE",
+      "Code": "VOICE",
+      "Description": "0",
+      "ActiveFlag": 1
+    }
+  ],
+  "kpisubcattbl": [
+    {
+      "ParameterId": 3373,
+      "CategoryId": 3369,
+      "ParentId": 3371,
+      "Name": "Dependable",
+      "Code": "Dependable",
+      "Description": "0.05",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3376,
+      "CategoryId": 3369,
+      "ParentId": 3370,
+      "Name": "Discipline",
+      "Code": "Discipline",
+      "Description": "0.05",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3372,
+      "CategoryId": 3369,
+      "ParentId": 3371,
+      "Name": "Obligation",
+      "Code": "Obligation",
+      "Description": "0.05",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3375,
+      "CategoryId": 3369,
+      "ParentId": 3371,
+      "Name": "Reliable",
+      "Code": "Reliable",
+      "Description": "0.05",
+      "ActiveFlag": 1
+    },
+    {
+      "ParameterId": 3374,
+      "CategoryId": 3369,
+      "ParentId": 3371,
+      "Name": "Responsible",
+      "Code": "Responsible",
+      "Description": "0.05",
+      "ActiveFlag": 1
+    }
+  ],
+  "success": "1"
+}
