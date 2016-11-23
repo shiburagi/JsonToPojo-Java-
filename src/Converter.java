@@ -75,20 +75,20 @@ public class Converter {
 			builder.append("\t@Expose\n");
 			if (object instanceof Long) {
 				System.out.println("Integer");
-				builder.append(String.format("\tprivate long %s;\n", key));
+				builder.append(String.format("\tpublic long %s;\n", key));
 				addMethod("long", methodName, key, methodBuilder);
 			} else if (object instanceof Double) {
 				System.out.println("Double");
-				builder.append(String.format("\tprivate double %s;\n", key));
+				builder.append(String.format("\tpublic double %s;\n", key));
 				addMethod("double", methodName, key, methodBuilder);
 			} else if (object instanceof String) {
 				System.out.println("String");
-				builder.append(String.format("\tprivate String %s;\n", key));
+				builder.append(String.format("\tpublic String %s;\n", key));
 				addMethod("String", methodName, key, methodBuilder);
 
 			} else if (object instanceof Boolean) {
 				System.out.println("Boolean");
-				builder.append(String.format("\tprivate boolean %s;\n", key));
+				builder.append(String.format("\tpublic boolean %s;\n", key));
 				addMethod("boolean", methodName, key, methodBuilder);
 
 			} else if (object instanceof List) {
@@ -103,14 +103,14 @@ public class Converter {
 					}
 				}
 				String type = realm ? "RealmList" : "List";
-				builder.append(String.format("\tprivate %s<%s> %s=new %s<>();\n", type, className, key,
+				builder.append(String.format("\tpublic %s<%s> %s=new %s<>();\n", type, className, key,
 						realm ? "RealmList" : "ArrayList"));
 
 				parse(packageName, className, (JSONArray) jsonObject.get(key));
 				addMethod(type + "<" + className + ">", methodName, key, methodBuilder);
 			} else {
 				System.out.println("Object");
-				builder.append(String.format("\tprivate %s %s;\n", className, key));
+				builder.append(String.format("\tpublic %s %s;\n", className, key));
 				parse(packageName, className, (JSONObject) jsonObject.get(key));
 				addMethod(className, methodName, key, methodBuilder);
 			}
